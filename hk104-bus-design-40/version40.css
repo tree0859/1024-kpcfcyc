@@ -1,0 +1,6 @@
+.paper svg .shape-id{font-size:5.12px;fill:#222;font-weight:600}
+.paper svg g[transform*="scale"] .cut{stroke-width:.448}
+.paper svg g[transform*="scale"] .fold{stroke-width:.416}
+.paper svg g[transform*="scale"] .guide,.paper svg g[transform*="scale"] .ref{stroke-width:.32}
+.paper svg g[transform*="scale"] .window{stroke-width:.4}
+.paper svg g[transform*="scale"] .dim{stroke-width:.272}

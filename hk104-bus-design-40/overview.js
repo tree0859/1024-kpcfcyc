@@ -1,0 +1,61 @@
+const Q=.625,R=(x,y,w,h,c="outline")=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" class="${c}"/>`;
+const L=(a,b,c,d,k="hair")=>`<line x1="${a}" y1="${b}" x2="${c}" y2="${d}" class="${k}"/>`;
+const C=(x,y,r,k="facility")=>`<circle cx="${x}" cy="${y}" r="${r}" class="${k}"/>`;
+const T=(x,y,t,k="",anchor="start")=>`<text x="${x}" y="${y}" class="${k}" text-anchor="${anchor}">${t}</text>`;
+const D=(x,y,w,t)=>L(x,y,x+w,y)+L(x,y-4,x,y+4)+L(x+w,y-4,x+w,y+4)+T(x+w/2,y-8,t,"dim","middle");
+const mount=(id,w,h,s,title)=>document.getElementById(id).innerHTML=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" role="img" aria-label="${title}"><title>${title}</title>${s}</svg>`;
+const scaled=(s,x=60,y=70)=>`<g transform="translate(${x} ${y}) scale(1.6)">${s}</g>`;
+let e=T(40,28,"A01 / 左側視圖 · 尺寸毫米","label"),body=R(0,0,400,125.625,"bodyfill")+R(0,0,400,1.875,"paper")+R(0,55.625,400,3.75,"paper")+R(0,121.875,400,3.75,"paper")+L(0,59.375,400,59.375,"dash")+R(7.5,71.875,25,50,"paper");
+body+=R(40.625,75,49.375,31.25,"seat")+R(375,75,17.5,31.25,"seat")+R(7.5,13.125,81.25,30,"seat");
+for(let r=0;r<8;r++)body+=R(100+34.375*r,75,30,31.25,"seat");
+for(let r=0;r<15;r++)body+=R(93.75+20*r,13.125,16.25,30,"seat");
+for(const x of [87.5,312.5,350])body+=C(x,128.125,12.5)+C(x,128.125,5,"paper");
+for(const x of [62.5,337.5])body+=R(x-6.25,45.625,12.5,23.125,"paper");
+body+=L(-5,140.625,405,140.625)+D(0,159,400,"400")+L(422,0,422,140.625)+T(421,162,"高140.625","dim","middle");
+e+=scaled(body)+T(40,365,"接合面z81.25；車身闊87.5；固定輪每側厚3.75，最大總闊95。","muted");mount("elevation",820,391,e,"40厘米左側視圖");
+let ends=T(40,28,"A02 / 前、後端 · 車身闊87.5、含輪闊95","label");
+for(let i=0;i<2;i++){
+ let s=R(0,0,87.5,125.625,"bodyfill")+R(0,0,87.5,1.875,"paper")+R(0,55.625,87.5,3.75,"paper")+R(0,121.875,87.5,3.75,"paper")+R(i?16.25:11.25,i?15.625:13.125,i?55:65,i?25:30,"seat");
+ s+=i?R(17.5,79.375,52.5,21.875,"facility"):R(11.25,74.375,65,32.5,"seat");
+ s+=R(-3.75,115.625,3.75,25,"facility")+R(87.5,115.625,3.75,25,"facility")+D(0,157,87.5,"87.5")+D(-3.75,180,95,"95 含輪");
+ ends+=`<g transform="translate(${120+i*365} 60) scale(1.6)">${s}</g>`+T(190+i*365,390,i?"後端":"前端","label","middle");
+}mount("ends",820,416,ends,"40厘米前後端視圖");
+function plan(up){
+ let s=T(40,27,up?"B01 / 上層64座 · 前左4＋主區60":"C01 / 下層40座 · 司機另計","label")+T(40,49,"車頭在左；圖上方＝右側y0、下方＝左側y87.5；數字為座位編號","muted");
+ let p=R(0,0,400,87.5)+R(1.875,1.875,396.25,83.75,"paper")+R(1.875,35.625,396.25,16.25,"aisle");
+ for(const x of [12.5,387.5])for(const y of [3.125,84.375])p+=C(x,y,1.875,"pin");
+ let count=0;
+ const seat=(x,y)=>{p+=R(x,y,16.25,13.75,"seat")+L(x+14.375,y+1.25,x+14.375,y+12.5,"outline")+`<text x="${x+7.2}" y="${y+9.5}" style="font-size:7.5px" text-anchor="middle">${++count}</text>`;};
+ if(up){
+  p+=R(19.375,6.25,17.5,45.625,"stair")+R(36.875,6.25,53.75,20,"stair");
+  for(const x of [25,50])for(const y of [53.125,68.75])seat(x,y);
+  for(let r=0;r<15;r++)for(const y of [6.25,21.875,53.125,68.75])seat(93.75+20*r,y);
+ }else{
+  p+=R(6.25,6.25,26.25,26.25,"facility")+C(15.625,13.75,3.75,"paper")+R(37.5,7.5,52.5,16.25,"stair")+R(90,6.25,13.75,45.625,"stair")+R(7.5,53.125,25,32.5,"facility")+R(36.25,55,8.75,10,"facility")+R(51.25,53.75,37.5,28.75,"facility")+R(380,9.375,16.25,68.75,"facility");
+  p+=T(69,68,"輪椅","dim","middle")+T(20,73,"入口","dim","middle");
+  for(let r=0;r<10;r++)for(const y of [6.25,21.875,53.125,68.75])seat(106.25+28.125*r,y);
+ }
+ p+=D(0,110,400,"400")+L(0,87.5,0,113)+L(400,87.5,400,113);
+ s+=scaled(p,60,82)+T(40,292,up?"座位前緣x25、50；主區x93.75＋20r，r0–14。":"座位前緣x106.25＋28.125r，r0–9；箱體由x380起。","muted")+T(40,317,"每座13.75闊×16.25深；通道16.25。詳細位置及裁片見README與紙樣索引。","muted");
+ mount(up?"upper-plan":"lower-plan",820,343,s,up?"40厘米上層64座俯視":"40厘米下層40座俯視");
+ document.getElementById(up?"upper-plan":"lower-plan").dataset.seats=count;
+}plan(true);plan(false);
+let j=T(40,28,"D01 / 拆合接頭剖面 · 放大示意，橫向非比例","label");
+j+=R(55,165,250,24,"facility")+R(55,189,60,145,"bodyfill")+R(115,165,125,169,"facility")+R(55,114,250,51,"paper")+R(151,80,7,85,"stair")+R(201,80,7,85,"stair")+R(158,80,43,85,"paper")+R(164,97,31,219,"pin");
+j+=L(40,165,320,165,"dash")+T(350,104,"套管長6.25；地板3.75＋上露2.5","label")+T(350,144,"木棒露5；管頂與棒頂餘量1.25","label")+T(350,184,"接合面z81.25；承托闊5","label")+T(350,231,"補強塊12.5×6.25×12.5","label")+T(350,276,"木棒長16.25，埋11.25；Ø約2.5","label")+T(350,317,"套管內Ø2.8125–3.125；先試孔","dim")+T(40,373,"4柱只定位，承托框負責承重；配4鎖帶，鬆帶後垂直提至少6.25。","muted");
+mount("connector",840,400,j,"40厘米拆合接頭剖面");
+let st=T(40,28,"E01 / 12級樓梯側剖與風琴展開","label"),pts=[[0,0]];
+for(let n=0;n<12;n++)pts.push([(n+1)*4.375,n*66.25/12],[(n+1)*4.375,(n+1)*66.25/12]);pts.push([0,66.25]);
+st+=`<g transform="translate(60 73) scale(2.6)"><polygon points="${pts.map(p=>p.join(",")).join(" ")}" class="stair"/>${R(-17.5,-3.75,17.5,3.75,"paper")}${R(-17.5,66.25,80,3.75,"paper")}</g>`;
+st+=T(320,81,"梯身52.5深 × 16.25闊 × 66.25高","label")+T(320,123,"12級：踏4.375，升66.25÷12≈5.520833","label")+T(320,165,"風琴條16.25×118.75；孔53.75×20","label")+T(320,207,"前高後低；梯身只黏下層，上下扶手獨立")+T(40,297,"梯高以總66.25等分，不把12級各自四捨五入後累加；精細摺線先試做。","muted");
+mount("stair-pattern",840,324,st,"40厘米12級樓梯側剖");
+document.documentElement.dataset.theme=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";
+document.getElementById("theme").addEventListener("click",()=>document.documentElement.dataset.theme=document.documentElement.dataset.theme==="dark"?"light":"dark");
+document.getElementById("print").addEventListener("click",()=>window.print());
+const checklistLink=document.createElement("a");
+checklistLink.href="checklist.html";
+checklistLink.textContent="裁剪與組裝順序清單";
+document.querySelector(".hero .closing").append(document.createTextNode("　／　"),checklistLink);
+const checklistNav=document.createElement("a");
+checklistNav.href="checklist.html";checklistNav.textContent="可勾選製作清單";
+document.querySelector("nav").prepend(checklistNav);
