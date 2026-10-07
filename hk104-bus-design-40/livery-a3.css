@@ -1,0 +1,2 @@
+main,header{max-width:1640px}.paper{width:404mm;height:281mm}.paper svg{width:404mm;height:281mm}.paper svg .head{font-size:5.5px}.paper svg text{font-size:3.35px}.cut-intro .cut-toolbar{margin-top:var(--space-6)}.mobile-hint{font-size:var(--text-sm)}.paperwrap{scroll-margin-top:var(--space-5)}
+@media print{@page{size:A3 landscape;margin:8mm}main{width:404mm!important}.paperwrap{width:404mm!important;height:281mm!important}.paper,.paper svg{width:404mm!important;height:281mm!important}.paperwrap.last-visible{break-after:auto}}
