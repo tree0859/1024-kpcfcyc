@@ -307,58 +307,58 @@
     {
       "id": "T3",
       "name": "下層梯斜扶手",
-      "size": "幼管Ø約1.25×長84.529950（可取84.53）",
+      "size": "幼管外Ø1.5×長84.529950（可取84.53）",
       "raw": "2",
       "finished": "2",
-      "material": "幼飲管／紙卷，切長圖"
+      "material": "外徑1.5幼管／紙卷管；原切長；先乾合，與J13分開"
     },
     {
       "id": "T4",
       "name": "下層梯立柱",
-      "size": "幼管Ø約1.25×長15.625",
+      "size": "幼管外Ø1.5×長15.625",
       "raw": "8",
       "finished": "8",
-      "material": "幼飲管／紙卷，切長圖"
+      "material": "外徑1.5幼管／紙卷管；原切長；先乾合，與J13分開"
     },
     {
       "id": "T5",
       "name": "上層孔長欄杆",
-      "size": "幼管Ø約1.25×長53.75",
+      "size": "幼管外Ø1.5×長53.75",
       "raw": "2",
       "finished": "2",
-      "material": "幼飲管／紙卷，切長圖"
+      "material": "外徑1.5幼管／紙卷管；原切長；先乾合，與J13分開"
     },
     {
       "id": "T6",
       "name": "上層孔短欄杆",
-      "size": "幼管Ø約1.25×長20",
+      "size": "幼管外Ø1.5×長20",
       "raw": "1",
       "finished": "1",
-      "material": "幼飲管／紙卷，切長圖"
+      "material": "外徑1.5幼管／紙卷管；原切長；先乾合，與J13分開"
     },
     {
       "id": "T7",
       "name": "上層圍欄立柱",
-      "size": "幼管Ø約1.25×長15.625",
+      "size": "幼管外Ø1.5×長15.625",
       "raw": "6",
       "finished": "6",
-      "material": "幼飲管／紙卷，切長圖"
+      "material": "外徑1.5幼管／紙卷管；原切長；先乾合，與J13分開"
     },
     {
       "id": "F6",
       "name": "方向盤短柱",
-      "size": "幼管Ø約1.25×長7.5",
+      "size": "幼管外Ø1.5×長7.5",
       "raw": "1",
       "finished": "1",
-      "material": "幼飲管／紙卷，切長圖"
+      "material": "外徑1.5幼管／紙卷管；原切長；先乾合，與J13分開"
     },
     {
       "id": "F7",
       "name": "一般扶手柱",
-      "size": "幼管Ø約1.25×長37.5",
+      "size": "幼管外Ø1.5×長37.5",
       "raw": "16",
       "finished": "16",
-      "material": "幼飲管／紙卷，切長圖"
+      "material": "外徑1.5幼管／紙卷管；原切長；先乾合，與J13分開"
     },
     {
       "id": "T8",
@@ -845,7 +845,7 @@
         "F6",
         "F7"
       ],
-      "svg": "<text x=\"7\" y=\"9\" class=\"head\">40cm / T3–T8／F6–F7 扶手、欄杆及短柱切長</text><text x=\"7\" y=\"16\" class=\"small\">原版62.5% · 黑實線裁／紅虛線摺／綠點線定位 · 此版不能與64cm裁片混用</text><text x=\"7\" y=\"22\" class=\"small\">幼管目標Ø1.25，切長見下表；斜扶手精確長84.529950。</text><text x=\"7\" y=\"27\" class=\"small\">T8：3.125＋3.125摺L；只黏下層，所有扶手不得跨接兩層。</text><g class=\"scaled-shapes\" transform=\"translate(0 20) scale(.625)\"><text x=\"15\" y=\"32\" text-anchor=\"start\" class=\"shape-id\">T3</text><rect x=\"15\" y=\"37\" width=\"135.2479205015737\" height=\"2\" class=\"guide\"/><line x1=\"15\" y1=\"46\" x2=\"150.2479205015737\" y2=\"46\" class=\"dim\"/><line x1=\"15\" y1=\"45\" x2=\"15\" y2=\"47\" class=\"dim\"/><line x1=\"150.2479205015737\" y1=\"45\" x2=\"150.2479205015737\" y2=\"47\" class=\"dim\"/><text x=\"15\" y=\"64\" text-anchor=\"start\" class=\"shape-id\">T4</text><rect x=\"15\" y=\"69\" width=\"25\" height=\"2\" class=\"guide\"/><line x1=\"15\" y1=\"78\" x2=\"40\" y2=\"78\" class=\"dim\"/><line x1=\"15\" y1=\"77\" x2=\"15\" y2=\"79\" class=\"dim\"/><line x1=\"40\" y1=\"77\" x2=\"40\" y2=\"79\" class=\"dim\"/><text x=\"15\" y=\"96\" text-anchor=\"start\" class=\"shape-id\">T5</text><rect x=\"15\" y=\"101\" width=\"86\" height=\"2\" class=\"guide\"/><line x1=\"15\" y1=\"110\" x2=\"101\" y2=\"110\" class=\"dim\"/><line x1=\"15\" y1=\"109\" x2=\"15\" y2=\"111\" class=\"dim\"/><line x1=\"101\" y1=\"109\" x2=\"101\" y2=\"111\" class=\"dim\"/><text x=\"15\" y=\"128\" text-anchor=\"start\" class=\"shape-id\">T6</text><rect x=\"15\" y=\"133\" width=\"32\" height=\"2\" class=\"guide\"/><line x1=\"15\" y1=\"142\" x2=\"47\" y2=\"142\" class=\"dim\"/><line x1=\"15\" y1=\"141\" x2=\"15\" y2=\"143\" class=\"dim\"/><line x1=\"47\" y1=\"141\" x2=\"47\" y2=\"143\" class=\"dim\"/><text x=\"165\" y=\"32\" text-anchor=\"start\" class=\"shape-id\">T7</text><rect x=\"165\" y=\"37\" width=\"25\" height=\"2\" class=\"guide\"/><line x1=\"165\" y1=\"46\" x2=\"190\" y2=\"46\" class=\"dim\"/><line x1=\"165\" y1=\"45\" x2=\"165\" y2=\"47\" class=\"dim\"/><line x1=\"190\" y1=\"45\" x2=\"190\" y2=\"47\" class=\"dim\"/><text x=\"165\" y=\"64\" text-anchor=\"start\" class=\"shape-id\">F6</text><rect x=\"165\" y=\"69\" width=\"12\" height=\"2\" class=\"guide\"/><line x1=\"165\" y1=\"78\" x2=\"177\" y2=\"78\" class=\"dim\"/><line x1=\"165\" y1=\"77\" x2=\"165\" y2=\"79\" class=\"dim\"/><line x1=\"177\" y1=\"77\" x2=\"177\" y2=\"79\" class=\"dim\"/><text x=\"165\" y=\"96\" text-anchor=\"start\" class=\"shape-id\">F7</text><rect x=\"165\" y=\"101\" width=\"60\" height=\"2\" class=\"guide\"/><line x1=\"165\" y1=\"110\" x2=\"225\" y2=\"110\" class=\"dim\"/><line x1=\"165\" y1=\"109\" x2=\"165\" y2=\"111\" class=\"dim\"/><line x1=\"225\" y1=\"109\" x2=\"225\" y2=\"111\" class=\"dim\"/><text x=\"165\" y=\"132\" text-anchor=\"start\" class=\"shape-id\">T8</text><g transform=\"translate(165 141)\"><rect x=\"0\" y=\"0\" width=\"26\" height=\"10\" class=\"cut\"/><rect x=\"0\" y=\"0\" width=\"26\" height=\"5\" class=\"glue\"/><line x1=\"0\" y1=\"5\" x2=\"26\" y2=\"5\" class=\"fold\"/></g><line x1=\"165\" y1=\"157\" x2=\"191\" y2=\"157\" class=\"dim\"/><line x1=\"165\" y1=\"156\" x2=\"165\" y2=\"158\" class=\"dim\"/><line x1=\"191\" y1=\"156\" x2=\"191\" y2=\"158\" class=\"dim\"/></g><text x=\"7\" y=\"132\" class=\"small\">零件尺寸mm／基準裁片數（尺寸已乘0.625；數量不變）</text><text x=\"7\" y=\"139\" class=\"small\">T3 下層梯斜扶手：幼管Ø約1.25×長84.529950（可取84.53） ｜裁2</text><text x=\"7\" y=\"144\" class=\"small\">T4 下層梯立柱：幼管Ø約1.25×長15.625 ｜裁8</text><text x=\"7\" y=\"149\" class=\"small\">T5 上層孔長欄杆：幼管Ø約1.25×長53.75 ｜裁2</text><text x=\"7\" y=\"154\" class=\"small\">T6 上層孔短欄杆：幼管Ø約1.25×長20 ｜裁1</text><text x=\"7\" y=\"159\" class=\"small\">T7 上層圍欄立柱：幼管Ø約1.25×長15.625 ｜裁6</text><text x=\"7\" y=\"164\" class=\"small\">T8 樓梯底固定L翼：16.25×6.25＝3.125＋3.125 ｜裁4</text><text x=\"7\" y=\"169\" class=\"small\">F6 方向盤短柱：幼管Ø約1.25×長7.5 ｜裁1</text><text x=\"7\" y=\"174\" class=\"small\">F7 一般扶手柱：幼管Ø約1.25×長37.5 ｜裁16</text><rect x=\"10\" y=\"183\" width=\"10\" height=\"2\" fill=\"#222\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"20\" y=\"183\" width=\"10\" height=\"2\" fill=\"white\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"30\" y=\"183\" width=\"10\" height=\"2\" fill=\"#222\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"40\" y=\"183\" width=\"10\" height=\"2\" fill=\"white\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"50\" y=\"183\" width=\"10\" height=\"2\" fill=\"#222\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"60\" y=\"183\" width=\"10\" height=\"2\" fill=\"white\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"70\" y=\"183\" width=\"10\" height=\"2\" fill=\"#222\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"80\" y=\"183\" width=\"10\" height=\"2\" fill=\"white\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"90\" y=\"183\" width=\"10\" height=\"2\" fill=\"#222\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"100\" y=\"183\" width=\"10\" height=\"2\" fill=\"white\" stroke=\"#222\" stroke-width=\".15\"/><text x=\"10\" y=\"180\" class=\"small\">0</text><text x=\"94\" y=\"180\" class=\"small\">100 mm</text><rect x=\"119\" y=\"177\" width=\"10\" height=\"10\" class=\"cut\"/><text x=\"137\" y=\"183\" class=\"small\">方格10×10；此頁已縮好，請列印100%。</text><text x=\"255\" y=\"186\" class=\"small\">P25</text>"
+      "svg": "<text x=\"7\" y=\"9\" class=\"head\">40cm / T3–T8／F6–F7 扶手、欄杆及短柱切長</text><text x=\"7\" y=\"16\" class=\"small\">原版62.5% · 黑實線裁／紅虛線摺／綠點線定位 · 此版不能與64cm裁片混用</text><text x=\"7\" y=\"22\" class=\"small\">幼管外Ø1.5（不是內徑）；原切長與數量不變，斜扶手84.529950。</text><text x=\"7\" y=\"27\" class=\"small\">先表面黏接試裝；若改插孔先試Ø1.6，埋深另算；扶手不跨接兩層。</text><g class=\"scaled-shapes\" transform=\"translate(0 20) scale(.625)\"><text x=\"15\" y=\"32\" text-anchor=\"start\" class=\"shape-id\">T3</text><rect x=\"15\" y=\"37\" width=\"135.2479205015737\" height=\"2.4\" class=\"guide\"/><line x1=\"15\" y1=\"46\" x2=\"150.2479205015737\" y2=\"46\" class=\"dim\"/><line x1=\"15\" y1=\"45\" x2=\"15\" y2=\"47\" class=\"dim\"/><line x1=\"150.2479205015737\" y1=\"45\" x2=\"150.2479205015737\" y2=\"47\" class=\"dim\"/><text x=\"15\" y=\"64\" text-anchor=\"start\" class=\"shape-id\">T4</text><rect x=\"15\" y=\"69\" width=\"25\" height=\"2.4\" class=\"guide\"/><line x1=\"15\" y1=\"78\" x2=\"40\" y2=\"78\" class=\"dim\"/><line x1=\"15\" y1=\"77\" x2=\"15\" y2=\"79\" class=\"dim\"/><line x1=\"40\" y1=\"77\" x2=\"40\" y2=\"79\" class=\"dim\"/><text x=\"15\" y=\"96\" text-anchor=\"start\" class=\"shape-id\">T5</text><rect x=\"15\" y=\"101\" width=\"86\" height=\"2.4\" class=\"guide\"/><line x1=\"15\" y1=\"110\" x2=\"101\" y2=\"110\" class=\"dim\"/><line x1=\"15\" y1=\"109\" x2=\"15\" y2=\"111\" class=\"dim\"/><line x1=\"101\" y1=\"109\" x2=\"101\" y2=\"111\" class=\"dim\"/><text x=\"15\" y=\"128\" text-anchor=\"start\" class=\"shape-id\">T6</text><rect x=\"15\" y=\"133\" width=\"32\" height=\"2.4\" class=\"guide\"/><line x1=\"15\" y1=\"142\" x2=\"47\" y2=\"142\" class=\"dim\"/><line x1=\"15\" y1=\"141\" x2=\"15\" y2=\"143\" class=\"dim\"/><line x1=\"47\" y1=\"141\" x2=\"47\" y2=\"143\" class=\"dim\"/><text x=\"165\" y=\"32\" text-anchor=\"start\" class=\"shape-id\">T7</text><rect x=\"165\" y=\"37\" width=\"25\" height=\"2.4\" class=\"guide\"/><line x1=\"165\" y1=\"46\" x2=\"190\" y2=\"46\" class=\"dim\"/><line x1=\"165\" y1=\"45\" x2=\"165\" y2=\"47\" class=\"dim\"/><line x1=\"190\" y1=\"45\" x2=\"190\" y2=\"47\" class=\"dim\"/><text x=\"165\" y=\"64\" text-anchor=\"start\" class=\"shape-id\">F6</text><rect x=\"165\" y=\"69\" width=\"12\" height=\"2.4\" class=\"guide\"/><line x1=\"165\" y1=\"78\" x2=\"177\" y2=\"78\" class=\"dim\"/><line x1=\"165\" y1=\"77\" x2=\"165\" y2=\"79\" class=\"dim\"/><line x1=\"177\" y1=\"77\" x2=\"177\" y2=\"79\" class=\"dim\"/><text x=\"165\" y=\"96\" text-anchor=\"start\" class=\"shape-id\">F7</text><rect x=\"165\" y=\"101\" width=\"60\" height=\"2.4\" class=\"guide\"/><line x1=\"165\" y1=\"110\" x2=\"225\" y2=\"110\" class=\"dim\"/><line x1=\"165\" y1=\"109\" x2=\"165\" y2=\"111\" class=\"dim\"/><line x1=\"225\" y1=\"109\" x2=\"225\" y2=\"111\" class=\"dim\"/><text x=\"165\" y=\"132\" text-anchor=\"start\" class=\"shape-id\">T8</text><g transform=\"translate(165 141)\"><rect x=\"0\" y=\"0\" width=\"26\" height=\"10\" class=\"cut\"/><rect x=\"0\" y=\"0\" width=\"26\" height=\"5\" class=\"glue\"/><line x1=\"0\" y1=\"5\" x2=\"26\" y2=\"5\" class=\"fold\"/></g><line x1=\"165\" y1=\"157\" x2=\"191\" y2=\"157\" class=\"dim\"/><line x1=\"165\" y1=\"156\" x2=\"165\" y2=\"158\" class=\"dim\"/><line x1=\"191\" y1=\"156\" x2=\"191\" y2=\"158\" class=\"dim\"/></g><text x=\"7\" y=\"132\" class=\"small\">零件尺寸mm／基準裁片數（尺寸已乘0.625；數量不變）</text><text x=\"7\" y=\"139\" class=\"small\">T3 下層梯斜扶手：幼管外Ø1.5×長84.529950（可取84.53） ｜裁2</text><text x=\"7\" y=\"144\" class=\"small\">T4 下層梯立柱：幼管外Ø1.5×長15.625 ｜裁8</text><text x=\"7\" y=\"149\" class=\"small\">T5 上層孔長欄杆：幼管外Ø1.5×長53.75 ｜裁2</text><text x=\"7\" y=\"154\" class=\"small\">T6 上層孔短欄杆：幼管外Ø1.5×長20 ｜裁1</text><text x=\"7\" y=\"159\" class=\"small\">T7 上層圍欄立柱：幼管外Ø1.5×長15.625 ｜裁6</text><text x=\"7\" y=\"164\" class=\"small\">T8 樓梯底固定L翼：16.25×6.25＝3.125＋3.125 ｜裁4</text><text x=\"7\" y=\"169\" class=\"small\">F6 方向盤短柱：幼管外Ø1.5×長7.5 ｜裁1</text><text x=\"7\" y=\"174\" class=\"small\">F7 一般扶手柱：幼管外Ø1.5×長37.5 ｜裁16</text><rect x=\"10\" y=\"183\" width=\"10\" height=\"2\" fill=\"#222\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"20\" y=\"183\" width=\"10\" height=\"2\" fill=\"white\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"30\" y=\"183\" width=\"10\" height=\"2\" fill=\"#222\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"40\" y=\"183\" width=\"10\" height=\"2\" fill=\"white\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"50\" y=\"183\" width=\"10\" height=\"2\" fill=\"#222\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"60\" y=\"183\" width=\"10\" height=\"2\" fill=\"white\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"70\" y=\"183\" width=\"10\" height=\"2\" fill=\"#222\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"80\" y=\"183\" width=\"10\" height=\"2\" fill=\"white\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"90\" y=\"183\" width=\"10\" height=\"2\" fill=\"#222\" stroke=\"#222\" stroke-width=\".15\"/><rect x=\"100\" y=\"183\" width=\"10\" height=\"2\" fill=\"white\" stroke=\"#222\" stroke-width=\".15\"/><text x=\"10\" y=\"180\" class=\"small\">0</text><text x=\"94\" y=\"180\" class=\"small\">100 mm</text><rect x=\"119\" y=\"177\" width=\"10\" height=\"10\" class=\"cut\"/><text x=\"137\" y=\"183\" class=\"small\">方格10×10；此頁已縮好，請列印100%。</text><text x=\"255\" y=\"186\" class=\"small\">P25</text>"
     },
     {
       "n": 26,

@@ -82,3 +82,8 @@ document.querySelector("#material .facility-table").after(materialNote);
 document.querySelector("#joint>.note").textContent="套管內Ø2.8、外Ø4、長6.25毫米；底端與B2地板底齊平，上露2.5。B2孔先試Ø4.1，緊才修到約4.2；J3木棒盲孔仍先試Ø2.625，勿混用。B5每側內面底邊x中心12.5及387.5各留闊4.2×高3、凹深約0.9避位，保留外面，不剪穿；先帶側牆乾合確定不頂管，再黏管外與車牆。不要強壓，管內不能入膠。";
 materialRows[3].children[1].textContent="棒約Ø2.5，4支各16.25；套管內Ø2.8／外Ø4，4段各6.25毫米";
 materialRows[3].children[2].textContent="棒100毫米、套管100毫米，各含試件；B2孔先試Ø4.1";
+const reliefLink=document.createElement("a");reliefLink.href="wall-relief.html";reliefLink.textContent="側牆內面避位放大加工圖";
+const reliefParagraph=document.createElement("p");reliefParagraph.append(reliefLink);document.querySelector("#joint>.note").after(reliefParagraph);
+materialRows[5].children[1].textContent="幼管外Ø1.5，供T3–T7及F6／F7；與J13內Ø2.8／外Ø4定位管分開";
+materialRows[5].children[2].textContent="36段共約1.123米；備至少1.5米，或200毫米長8根＝1.6米";
+const railNote=document.createElement("div");railNote.className="note";railNote.textContent="幼管已改外Ø1.5毫米（不是內徑），原表面黏接切長不變。比原方案每邊多0.125，一對欄杆淨空少0.25；先乾合樓梯、轉角及通道，不跨拆合縫。若自行改插孔固定，先試Ø1.6並按實物微修，另算埋深，勿鑽穿地板。";document.querySelector("#stairs").append(railNote);

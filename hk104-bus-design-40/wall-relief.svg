@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 820" role="img" aria-labelledby="title desc">
+<title id="title">HK-104 40厘米版：側牆內面避位放大加工圖</title>
+<desc id="desc">B5每側底邊兩處闊4.2高3毫米，內面凹深約0.9毫米。保留外面約0.975毫米，不能剪穿。三視圖分辨正面加工範圍、厚度及套管俯視配合，須先實物試件。</desc>
+<defs><pattern id="remove-hatch" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#fae0df"/><path d="M-2 2L2-2M0 9L9 0M7 11L11 7" stroke="#b94238" stroke-width="1"/></pattern></defs>
+<style>text{font-family:"Noto Sans TC",sans-serif;fill:#202a2e;font-size:18px}.title{font-size:27px;font-weight:700}.head{font-size:22px;font-weight:700}.small{font-size:16px}.muted{fill:#526366}.cut{fill:none;stroke:#b94238;stroke-width:2;stroke-dasharray:5 4}.edge{fill:none;stroke:#283338;stroke-width:2}.dim{fill:none;stroke:#526366;stroke-width:1.5}.keep{fill:#deeee5;stroke:#39755d;stroke-width:2}.raw{fill:#f7ecd8;stroke:#283338;stroke-width:2}.remove{fill:url(#remove-hatch);stroke:#b94238;stroke-width:2}.center{stroke:#526366;stroke-width:1;stroke-dasharray:6 4}.note{font-size:18px;font-weight:600}</style>
+<rect width="960" height="820" fill="white"/>
+<text x="30" y="42" class="title">B5側牆內面避位：只修內面，不剪穿</text>
+<text x="30" y="72" fill="#35474d">尺寸單位mm；局部放大示意，不是1:1裁紙樣。先用廢卡試件，再加工正式牆。</text>
+<rect x="30" y="92" width="20" height="16" class="remove"/><text x="60" y="107" class="small">粉紅斜線＝修去</text>
+<rect x="270" y="92" width="20" height="16" class="keep"/><text x="300" y="107" class="small">綠色＝保留外層</text>
+<text x="30" y="150" class="head">A / 從車廂內看側牆</text>
+<rect x="60" y="175" width="360" height="180" class="raw"/>
+<rect x="177" y="265" width="126" height="90" class="remove"/>
+<line x1="240" y1="175" x2="240" y2="365" class="center"/>
+<text x="84" y="207" class="small">牆內面；底邊從這一面修薄</text>
+<rect x="185" y="296" width="96" height="26" rx="2" fill="#fffdf8"/>
+<text x="188" y="315" class="small">內凹範圍</text>
+<line x1="177" y1="375" x2="303" y2="375" class="dim"/><path d="M177 368v14M303 368v14" class="dim"/>
+<text x="240" y="403" text-anchor="middle">闊4.2</text>
+<line x1="328" y1="265" x2="328" y2="355" class="dim"/><path d="M321 265h14M321 355h14" class="dim"/>
+<text x="340" y="315">高3</text>
+<text x="60" y="435" class="small">每側x中心12.5及387.5，各2處；左右共4處。</text>
+<text x="515" y="150" class="head">B / 從避位中間看厚度剖面</text>
+<rect x="565" y="175" width="75" height="180" class="raw"/>
+<rect x="565" y="235" width="39" height="120" class="keep"/>
+<rect x="604" y="235" width="36" height="120" class="remove"/>
+<text x="515" y="207" class="small" text-anchor="end">車外</text>
+<text x="674" y="207" class="small">車內</text>
+<line x1="565" y1="220" x2="640" y2="220" class="dim"/><path d="M565 213v14M640 213v14" class="dim"/>
+<text x="676" y="226" class="small">完成牆厚1.875</text>
+<path d="M622 305H694" class="dim"/><text x="707" y="311">凹深約0.9</text>
+<path d="M584 331L695 377" class="dim"/><text x="707" y="386">保留約0.975</text>
+<text x="515" y="435" class="small">1.875 − 0.9＝0.975；以壓乾後實測牆厚為準。</text>
+<line x1="30" y1="460" x2="930" y2="460" stroke="#c8cdc6"/>
+<text x="30" y="496" class="head">C / 在避位高度俯視</text>
+<rect x="65" y="520" width="75" height="180" class="raw"/>
+<rect x="65" y="526" width="39" height="168" class="keep"/>
+<rect x="104" y="526" width="36" height="168" class="remove"/>
+<circle cx="190" cy="610" r="80" fill="#ede8d6" stroke="#283338" stroke-width="2"/>
+<circle cx="190" cy="610" r="56" fill="white" stroke="#283338" stroke-width="2"/>
+<circle cx="190" cy="610" r="50" fill="#ddd3bf" stroke="#665d4f" stroke-width="1"/>
+<path d="M140 610H285M190 513V707" class="center"/>
+<text x="32" y="736" class="small">車外</text><text x="243" y="736" class="small">車內</text>
+<path d="M243 555L320 537" class="dim"/><text x="328" y="542">套管外Ø4</text>
+<path d="M225 577L320 585" class="dim"/><text x="328" y="590">管內Ø2.8</text>
+<path d="M220 633L320 637" class="dim"/><text x="328" y="642">木棒約Ø2.5</text>
+<text x="515" y="506" class="head">加工順序</text>
+<text x="515" y="539">先量完成牆厚，標內面與牆底。</text>
+<text x="515" y="571">畫4.2×3範圍，逐少刮薄／磨薄。</text>
+<text x="515" y="603">不要沿方框剪穿，不要削薄套管。</text>
+<text x="515" y="635">帶側牆乾合，確認管不頂牆再黏。</text>
+<text x="515" y="667">若外面裂開、崩邊或明顯變弱，停工。</text>
+<text x="515" y="699" class="small" fill="#35474d">勿用鎖帶硬拉合；不可抓上層提整車。</text>
+<text x="30" y="781" class="note">管長6.25、上露2.5；B2先試Ø4.1孔，緊才修至約4.2；四柱中心不改。</text>
+<text x="30" y="807" class="small" fill="#35474d">凹位及孔徑均為試件起點，尚未實物驗證；左右側作鏡像內面避位，外皮保持完整。</text>
+</svg>
