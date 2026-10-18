@@ -1,5 +1,5 @@
 {
-  "version": "393x83-integer-card-v1",
+  "version": "393x83-integer-card-v2",
   "basis": {
     "length": 393,
     "width": 83,
@@ -62,6 +62,13 @@
     "fold": 7.9828125000000005,
     "vertical": 23.0359375,
     "flat": 31.01875
+  },
+  "assembly": {
+    "stairProfileOrder": "rise-then-tread",
+    "ribOrientation": "upright",
+    "ribDepthX": 4,
+    "ribHeightZ": 11.053125,
+    "minimumStandMm": 12
   },
   "parts": [
     {
@@ -280,7 +287,7 @@
       "size": "67.80 × 11.05",
       "quantity": 4,
       "material": "1毫米灰卡；每件4層＝4毫米",
-      "note": "跨y7.60–75.40；長向中心x108.08、171.94、245.63、319.31。",
+      "note": "豎裝：沿Y長67.8、沿Z高11.053125、沿X厚4；跨y7.60–75.40，中心x108.08、171.94、245.63、319.31。",
       "dimensions": [
         67.8,
         11.053125

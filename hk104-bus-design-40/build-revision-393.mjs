@@ -28,7 +28,7 @@ const html=`<!doctype html>
 <p>以實際B1地板為基準，修正後續部件的長闊、整層卡厚及配合位置。本頁是手工量度用尺寸表，不是1:1裁切紙樣；原A4／A3紙樣及PDF不改。</p>
 <div class="revision-facts"><p><strong>393 × 83</strong><br>地板長 × 闊，毫米</p><p><strong>64 + 40</strong><br>乘客席；司機另計</p><p><strong>210</strong><br>1毫米灰卡裁片／69個完成件</p></div>
 <p>高度暫取長度倍率0.9825，車闊倍率為0.948571；地板4毫米、牆及頂2毫米，接頭塊9毫米。整車計算總高約139.22毫米，未經實物試製，先做試件及乾合。</p>
-<div class="revision-links"><a href="${mdName}">原文尺寸表（Markdown）</a><a href="${jsonName}">尺寸核算資料（JSON）</a><a href="cutting.html">原40厘米紙樣（須手動改線）</a></div></section>
+<div class="revision-links"><a href="checklist.html">四柱／樓梯更新清單</a><a href="${mdName}">原文尺寸表（Markdown）</a><a href="${jsonName}">尺寸核算資料（JSON）</a><a href="cutting.html">原40厘米紙樣（須手動改線）</a></div></section>
 <div class="revision-layout"><aside class="revision-toc" aria-label="尺寸表章節"><h2>章節索引</h2><ol>${toc.join("")}</ol></aside><article class="revision-content" id="revision-content">${body}</article></div>
 </main><footer><span>HK–104 / 39.3厘米實作修正</span><span>原40厘米紙樣保留 · 尺寸均為毫米 · 先試件再批量裁</span></footer></body></html>`;
 fs.writeFileSync(new URL("revision-393.html",import.meta.url),html);

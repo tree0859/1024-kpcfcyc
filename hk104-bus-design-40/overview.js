@@ -54,10 +54,10 @@ document.getElementById("theme").addEventListener("click",()=>document.documentE
 document.getElementById("print").addEventListener("click",()=>window.print());
 const checklistLink=document.createElement("a");
 checklistLink.href="checklist.html";
-checklistLink.textContent="裁剪與組裝順序清單";
+checklistLink.textContent="39.3厘米四柱／樓梯更新清單";
 document.querySelector(".hero .closing").append(document.createTextNode("　／　"),checklistLink);
 const checklistNav=document.createElement("a");
-checklistNav.href="checklist.html";checklistNav.textContent="可勾選製作清單";
+checklistNav.href="checklist.html";checklistNav.textContent="四柱／樓梯更新清單";
 document.querySelector("nav").prepend(checklistNav);
 const liveryNav=document.createElement("a");liveryNav.href="cutting.html#cut-P38";liveryNav.textContent="外觀彩印外皮";document.querySelector("nav").prepend(liveryNav);
 const liveryLink=document.createElement("a");liveryLink.href="cutting.html#cut-P38";liveryLink.textContent="上傳外觀圖的彩印裁紙樣";document.querySelector(".hero .closing").append(document.createTextNode("　／　"),liveryLink);
