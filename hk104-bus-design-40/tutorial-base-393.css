@@ -1,0 +1,7 @@
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{min-width:280px}
+img{max-width:100%;vertical-align:middle}
+button,input,select,textarea{font:inherit}
+button,a{-webkit-tap-highlight-color:transparent}
+[hidden]{display:none!important}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

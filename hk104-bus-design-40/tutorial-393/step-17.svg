@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">17：反覆20次試拆，才繼續永久內裝</title><desc id="desc">以完整牆板、末排椅及樓梯乾放核對干涉，反覆試拆20次。每次檢查四角是否自然平落、管有否鬆、棒有否倒刺、框及塊有否裂；合格後才永久固定後續內裝，再帶齊組件複驗。 試件合格才批量製作；成功拆合不等於完成強度驗證。這是未經實物試製的計算方案，高度跟長度倍率0.9825仍是工作假設。</desc><style>
+svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
+.label{font-size:20px;fill:#202a2c;font-weight:600}
+.small{font-size:18px;fill:#202a2c}
+.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
+.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
+.cutout{fill:#fffdf7}
+.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
+.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
+.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
+.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
+.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
+.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
+.glue{stroke:#b12626;stroke-width:4;fill:none}
+.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
+.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
+.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
+</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">每次檢查四角，不靠硬壓合上</text><g transform="translate(30 112) scale(1.06)"><rect x="0" y="0" width="393" height="83" class="wall"/><rect x="2" y="2" width="389" height="79" class="cutout"/><rect x="2" y="2" width="389" height="5" class="j1"/><rect x="2" y="76" width="389" height="5" class="j1"/><rect x="2" y="7" width="5" height="69" class="j2"/><rect x="386" y="7" width="5" height="69" class="j2"/><circle cx="12.28125" cy="5" r="2.4" class="pin"/><circle cx="12.28125" cy="78" r="2.4" class="pin"/><circle cx="388" cy="5" r="2.4" class="pin"/><circle cx="388" cy="78" r="2.4" class="pin"/></g><text x="28" y="249" class="label">20次：平落／無卡／無裂／管不鬆</text><text x="28" y="284" class="label">合格後才做永久內裝</text><text x="28" y="314" class="label">本教程只涵蓋承托框與拆層接頭</text></svg>

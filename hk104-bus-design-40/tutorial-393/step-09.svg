@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">9：每塊疊9層：上7有孔、底2封住</title><desc id="desc">每組先把7片有孔灰卡同軸疊合，再加2片實心灰卡做底，形成塊頂深7毫米的盲孔。薄塗膠、壓平，避免膠塞孔。 完成塊高9毫米；由塊頂到孔底7毫米，孔底下面還有2毫米實卡，不是9毫米通孔。</desc><style>
+svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
+.label{font-size:20px;fill:#202a2c;font-weight:600}
+.small{font-size:18px;fill:#202a2c}
+.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
+.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
+.cutout{fill:#fffdf7}
+.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
+.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
+.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
+.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
+.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
+.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
+.glue{stroke:#b12626;stroke-width:4;fill:none}
+.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
+.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
+.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
+</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">J3側剖面：7毫米孔＋2毫米底</text><rect x="85" y="83" width="150" height="126" class="block"/><rect x="144" y="83" width="32" height="98" class="hole"/><line x1="85" y1="97" x2="144" y2="97" class="guide"/><line x1="176" y1="97" x2="235" y2="97" class="guide"/><line x1="85" y1="111" x2="144" y2="111" class="guide"/><line x1="176" y1="111" x2="235" y2="111" class="guide"/><line x1="85" y1="125" x2="144" y2="125" class="guide"/><line x1="176" y1="125" x2="235" y2="125" class="guide"/><line x1="85" y1="139" x2="144" y2="139" class="guide"/><line x1="176" y1="139" x2="235" y2="139" class="guide"/><line x1="85" y1="153" x2="144" y2="153" class="guide"/><line x1="176" y1="153" x2="235" y2="153" class="guide"/><line x1="85" y1="167" x2="144" y2="167" class="guide"/><line x1="176" y1="167" x2="235" y2="167" class="guide"/><line x1="85" y1="181" x2="235" y2="181" class="guide"/><line x1="85" y1="195" x2="235" y2="195" class="guide"/><text x="270" y="113" class="label">上7層開孔</text><text x="270" y="187" class="label">下2層實心</text><text x="28" y="257" class="label">四塊各9片，共36片灰卡</text><text x="28" y="291" class="label">孔深由塊頂量7，不鑽穿</text></svg>

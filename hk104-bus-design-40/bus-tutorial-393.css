@@ -1,0 +1,21 @@
+.materials{padding:var(--space-4) 0;border-top:1px solid var(--line);font-size:var(--text-sm)}
+.materials summary{font-weight:600;min-height:44px;cursor:pointer}
+.materials p{max-width:70em}.table-wrap{overflow-x:auto;max-width:100%;margin-block:var(--space-5)}
+table{border-collapse:collapse;width:100%;font-size:var(--text-sm);min-width:460px}
+th,td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:var(--space-2) var(--space-3)}
+th{font-weight:600}caption{text-align:left;font-size:var(--text-sm);margin-bottom:var(--space-3);font-weight:600}
+.contents nav{align-items:start}.contents nav>div{min-width:0}.contents a{align-items:start;line-height:1.6;padding-block:var(--space-2)}
+.contents .stage-link{font-weight:700;margin-top:var(--space-4)}
+.assembly-stage{scroll-margin-top:var(--space-4)}.assembly-stage>h2{padding-top:var(--space-10);border-top:2px solid var(--ink);display:flex;gap:var(--space-4);align-items:baseline}
+.assembly-stage>h2>span{font-family:"IBM Plex Mono",monospace;color:var(--muted);font-size:var(--text-sm)}
+.tutorial-step h3{font-size:var(--text-lg);line-height:1.5;margin:var(--space-3) 0 var(--space-5)}
+.tutorial-step:has(.table-wrap){align-items:start}.tutorial-step:has(.table-wrap) figure{padding-top:var(--space-12)}
+@media(max-width:800px){.tutorial-step:has(.table-wrap) figure{padding-top:0}}
+@media print{
+ .materials{break-after:page}.materials summary{display:none}.materials::details-content{display:block}
+ .materials>*:not(summary){display:block}.materials table{display:table}.materials tr{break-inside:avoid}
+ .contents{display:none}.assembly-stage>h2{break-before:page;margin:0;padding-top:0;font-size:17pt}
+ .assembly-stage>.tutorial-step:first-of-type{break-before:auto}.tutorial-step{break-inside:auto}
+ .tutorial-step figure{break-inside:avoid;padding-top:0!important}.tutorial-step h3{font-size:15pt}
+ table{font-size:9pt;min-width:0}.table-wrap{overflow:visible}
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">5：在下層標出框頂及框底高度</title><desc id="desc">以地面z0為基準，標框頂z80.40625、框底z78.40625毫米；兩者相差2毫米。J7水平托翼的上表面對齊框底，直立黏面貼在牆內側向下延伸。 左右各5個托座，建議x49.13、127.73、206.33、284.93、358.61；車頭及車尾各1個，y41.50。共12個，每座配2片J8。</desc><style>
+svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
+.label{font-size:20px;fill:#202a2c;font-weight:600}
+.small{font-size:18px;fill:#202a2c}
+.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
+.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
+.cutout{fill:#fffdf7}
+.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
+.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
+.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
+.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
+.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
+.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
+.glue{stroke:#b12626;stroke-width:4;fill:none}
+.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
+.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
+.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
+</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="36" class="label">側剖面：托翼頂對齊框底</text><rect x="100" y="76" width="20" height="170" class="wall"/><rect x="120" y="76" width="80" height="20" class="j1"/><line x1="120" y1="96" x2="170" y2="96" class="glue"/><line x1="120" y1="96" x2="120" y2="219" class="glue"/><polygon points="120,98 170,98 120,219" class="block"/><line x1="207" y1="76" x2="449" y2="76" class="guide"/><line x1="207" y1="96" x2="449" y2="96" class="guide"/><text x="242" y="65" class="label">框頂80.40625</text><text x="242" y="128" class="label">框底78.40625</text><text x="242" y="190" class="label">J8三角撐在翼下</text><text x="242" y="225" class="label">J7黏牆面向下</text><text x="28" y="300" class="label">示意放大；兩側三角撐只畫一片</text></svg>

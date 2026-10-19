@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">41：鬆四帶，至少20次整車拆合</title><desc id="desc">解開全部四帶，雙手托上層兩端底部，均勻垂直提至少7毫米，四棒離管後再移開。帶齊牆、椅、樓梯與扶手反覆拆合20次，每次看四角平落、管不鬆、棒無倒刺及框無裂。</desc><style>
+svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
+.label{font-size:20px;fill:#202a2c;font-weight:600}
+.small{font-size:18px;fill:#202a2c}
+.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
+.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
+.cutout{fill:#fffdf7}
+.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
+.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
+.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
+.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
+.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
+.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
+.glue{stroke:#b12626;stroke-width:4;fill:none}
+.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
+.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
+.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
+</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">先鬆4帶，再均勻垂直提起</text><g transform="translate(0 45) scale(1)"><rect x="60" y="126" width="59.6" height="16" class="j1"/><rect x="140.4" y="126" width="69.6" height="16" class="j1"/><rect x="80.875" y="142" width="98.25" height="72" class="block"/><rect x="119.6" y="142" width="20.8" height="56" class="hole"/><rect x="120" y="86" width="20" height="112" class="pin"/><g transform="translate(0 -58) scale(1)"><rect x="50" y="94" width="63.6" height="32" class="card"/><rect x="146.4" y="94" width="83.6" height="32" class="card"/><rect x="114" y="76" width="4.8" height="50" class="tube"/><rect x="141.2" y="76" width="4.8" height="50" class="tube"/></g></g><line x1="252" y1="190" x2="252" y2="108" class="arrow"/><text x="285" y="110" class="label">至少提7</text><text x="285" y="155" class="label">再水平移開</text><text x="28" y="290" class="label">雙手托底，不抓車頂</text><text x="28" y="320" class="label">收納墊邊緣至少12高，避開底肋</text></svg>

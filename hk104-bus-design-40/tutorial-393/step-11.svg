@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">11：木棒裁14毫米，按7＋2＋5裝入</title><desc id="desc">裁4根Ø約2.5、長14毫米的木棒，修平端部並輕磨倒刺。每根由底端標7及9毫米；入塊7、穿框2，框頂以上露5毫米。 7毫米標記對J3塊頂，9毫米標記對框頂；四根外露高度相同。先試一組，合格再做其餘三組。</desc><style>
+svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
+.label{font-size:20px;fill:#202a2c;font-weight:600}
+.small{font-size:18px;fill:#202a2c}
+.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
+.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
+.cutout{fill:#fffdf7}
+.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
+.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
+.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
+.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
+.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
+.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
+.glue{stroke:#b12626;stroke-width:4;fill:none}
+.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
+.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
+.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
+</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">J12：Ø約2.5 × 長14</text><rect x="60" y="126" width="59.6" height="16" class="j1"/><rect x="140.4" y="126" width="69.6" height="16" class="j1"/><rect x="80.875" y="142" width="98.25" height="72" class="block"/><rect x="119.6" y="142" width="20.8" height="56" class="hole"/><rect x="120" y="86" width="20" height="112" class="pin"/><text x="260" y="95" class="label">框上露5</text><text x="260" y="139" class="label">穿框2</text><text x="260" y="185" class="label">入塊7</text><text x="28" y="270" class="label">木棒由底端標7及9毫米</text><text x="28" y="304" class="label">綠色＝木棒；外露段不上膠</text></svg>

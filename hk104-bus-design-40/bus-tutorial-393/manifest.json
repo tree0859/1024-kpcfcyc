@@ -1,0 +1,511 @@
+{
+  "version": "393x83-integer-card-v2",
+  "stepCount": 42,
+  "stageCount": 10,
+  "steps": [
+    {
+      "step": 1,
+      "stage": 1,
+      "title": "確認版本、分袋與材料",
+      "parts": [
+        "B1"
+      ],
+      "image": "bus-tutorial-393/step-01.svg"
+    },
+    {
+      "step": 2,
+      "stage": 1,
+      "title": "先試一座、一盒和一個接頭",
+      "parts": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "F1",
+        "J1",
+        "J3",
+        "J12",
+        "J13"
+      ],
+      "image": "bus-tutorial-393/step-02.svg"
+    },
+    {
+      "step": 3,
+      "stage": 1,
+      "title": "裁長板並分層壓平",
+      "parts": [
+        "B1",
+        "B2",
+        "B10"
+      ],
+      "image": "bus-tutorial-393/step-03.svg"
+    },
+    {
+      "step": 4,
+      "stage": 2,
+      "title": "裁牆板、門片及新窗洞",
+      "parts": [
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B11"
+      ],
+      "image": "bus-tutorial-393/step-04.svg"
+    },
+    {
+      "step": 5,
+      "stage": 2,
+      "title": "先描外皮孔位，未裝窗前預裁紙",
+      "parts": [
+        "B3",
+        "B4",
+        "B5",
+        "B10",
+        "B11"
+      ],
+      "image": "bus-tutorial-393/step-05.svg"
+    },
+    {
+      "step": 6,
+      "stage": 2,
+      "title": "把57片透明窗貼在牆內面",
+      "parts": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "G9",
+        "G10"
+      ],
+      "image": "bus-tutorial-393/step-06.svg"
+    },
+    {
+      "step": 7,
+      "stage": 2,
+      "title": "在B1頂上組下層空殼",
+      "parts": [
+        "B1",
+        "B3",
+        "B4",
+        "B6",
+        "B7"
+      ],
+      "image": "bus-tutorial-393/step-07.svg"
+    },
+    {
+      "step": 8,
+      "stage": 3,
+      "title": "製作並定位12個托座",
+      "parts": [
+        "J7",
+        "J8"
+      ],
+      "image": "bus-tutorial-393/step-08.svg"
+    },
+    {
+      "step": 9,
+      "stage": 3,
+      "title": "疊好J1／J2承托框",
+      "parts": [
+        "J1",
+        "J2"
+      ],
+      "image": "bus-tutorial-393/step-09.svg"
+    },
+    {
+      "step": 10,
+      "stage": 3,
+      "title": "疊9層J3，黏到框底",
+      "parts": [
+        "J3"
+      ],
+      "image": "bus-tutorial-393/step-10.svg"
+    },
+    {
+      "step": 11,
+      "stage": 3,
+      "title": "裝四根14毫米定位棒",
+      "parts": [
+        "J12"
+      ],
+      "image": "bus-tutorial-393/step-11.svg"
+    },
+    {
+      "step": 12,
+      "stage": 4,
+      "title": "在B2重畫梯孔及四管孔",
+      "parts": [
+        "B2"
+      ],
+      "image": "bus-tutorial-393/step-12.svg"
+    },
+    {
+      "step": 13,
+      "stage": 4,
+      "title": "B2底面只補三邊U框",
+      "parts": [
+        "J5",
+        "J6"
+      ],
+      "image": "bus-tutorial-393/step-13.svg"
+    },
+    {
+      "step": 14,
+      "stage": 4,
+      "title": "豎裝四根橫肋及8片角撐",
+      "parts": [
+        "J4",
+        "J9"
+      ],
+      "image": "bus-tutorial-393/step-14.svg"
+    },
+    {
+      "step": 15,
+      "stage": 4,
+      "title": "試裝四段套管",
+      "parts": [
+        "J13"
+      ],
+      "image": "bus-tutorial-393/step-15.svg"
+    },
+    {
+      "step": 16,
+      "stage": 4,
+      "title": "首輪四角乾合，再分開黏管",
+      "parts": [
+        "B2",
+        "J13"
+      ],
+      "image": "bus-tutorial-393/step-16.svg"
+    },
+    {
+      "step": 17,
+      "stage": 5,
+      "title": "畫兩片12級樓梯側板",
+      "parts": [
+        "T1"
+      ],
+      "image": "bus-tutorial-393/step-17.svg"
+    },
+    {
+      "step": 18,
+      "stage": 5,
+      "title": "壓23條累積摺線，摺T2風琴",
+      "parts": [
+        "T2"
+      ],
+      "image": "bus-tutorial-393/step-18.svg"
+    },
+    {
+      "step": 19,
+      "stage": 5,
+      "title": "把踏步貼在兩片側板之間",
+      "parts": [
+        "T1",
+        "T2",
+        "T8"
+      ],
+      "image": "bus-tutorial-393/step-19.svg"
+    },
+    {
+      "step": 20,
+      "stage": 5,
+      "title": "樓梯穿孔試合，只固定下層",
+      "parts": [
+        "T1",
+        "T2",
+        "T8",
+        "B1",
+        "B2"
+      ],
+      "image": "bus-tutorial-393/step-20.svg"
+    },
+    {
+      "step": 21,
+      "stage": 6,
+      "title": "摺桃紅色S1座面及椅背",
+      "parts": [
+        "S1",
+        "D1"
+      ],
+      "image": "bus-tutorial-393/step-21.svg"
+    },
+    {
+      "step": 22,
+      "stage": 6,
+      "title": "摺Z座底、側板及角撐",
+      "parts": [
+        "S2",
+        "S3",
+        "S4",
+        "D2",
+        "D3",
+        "D4"
+      ],
+      "image": "bus-tutorial-393/step-22.svg"
+    },
+    {
+      "step": 23,
+      "stage": 6,
+      "title": "完成52組雙人椅及司機單椅",
+      "parts": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "D1",
+        "D2",
+        "D3",
+        "D4"
+      ],
+      "image": "bus-tutorial-393/step-23.svg"
+    },
+    {
+      "step": 24,
+      "stage": 6,
+      "title": "排下層10排，每排4席",
+      "parts": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "image": "bus-tutorial-393/step-24.svg"
+    },
+    {
+      "step": 25,
+      "stage": 7,
+      "title": "重畫及摺合三個設施紙盒",
+      "parts": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "image": "bus-tutorial-393/step-25.svg"
+    },
+    {
+      "step": 26,
+      "stage": 7,
+      "title": "裝司機台、方向盤、收費器",
+      "parts": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "F1",
+        "F3",
+        "F5",
+        "F6"
+      ],
+      "image": "bus-tutorial-393/step-26.svg"
+    },
+    {
+      "step": 27,
+      "stage": 7,
+      "title": "裝輪椅靠板及車尾設備箱",
+      "parts": [
+        "F2",
+        "F4",
+        "F11"
+      ],
+      "image": "bus-tutorial-393/step-27.svg"
+    },
+    {
+      "step": 28,
+      "stage": 7,
+      "title": "做扶手、落車鐘及滅火筒",
+      "parts": [
+        "F7",
+        "F8",
+        "F9",
+        "F10"
+      ],
+      "image": "bus-tutorial-393/step-28.svg"
+    },
+    {
+      "step": 29,
+      "stage": 8,
+      "title": "排上層32組雙人椅，共64席",
+      "parts": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "image": "bus-tutorial-393/step-29.svg"
+    },
+    {
+      "step": 30,
+      "stage": 8,
+      "title": "四角複驗後，把上層牆黏B2",
+      "parts": [
+        "B5",
+        "B8",
+        "B9"
+      ],
+      "image": "bus-tutorial-393/step-30.svg"
+    },
+    {
+      "step": 31,
+      "stage": 8,
+      "title": "分層裝梯扶手及孔邊欄杆",
+      "parts": [
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "F7",
+        "F8"
+      ],
+      "image": "bus-tutorial-393/step-31.svg"
+    },
+    {
+      "step": 32,
+      "stage": 8,
+      "title": "帶齊內裝，再試整層自然落座",
+      "parts": [
+        "B1",
+        "B2",
+        "J12",
+        "J13",
+        "T1"
+      ],
+      "image": "bus-tutorial-393/step-32.svg"
+    },
+    {
+      "step": 33,
+      "stage": 9,
+      "title": "做可取車頂及薄卡裙邊",
+      "parts": [
+        "B10",
+        "R1",
+        "R2"
+      ],
+      "image": "bus-tutorial-393/step-33.svg"
+    },
+    {
+      "step": 34,
+      "stage": 9,
+      "title": "裝單片手動門及布膠帶鉸鏈",
+      "parts": [
+        "B11",
+        "G10"
+      ],
+      "image": "bus-tutorial-393/step-34.svg"
+    },
+    {
+      "step": 35,
+      "stage": 9,
+      "title": "疊四個15毫米高底腳",
+      "parts": [
+        "B12"
+      ],
+      "image": "bus-tutorial-393/step-35.svg"
+    },
+    {
+      "step": 36,
+      "stage": 9,
+      "title": "裝左右共六個固定裝飾輪",
+      "parts": [
+        "W1",
+        "W2"
+      ],
+      "image": "bus-tutorial-393/step-36.svg"
+    },
+    {
+      "step": 37,
+      "stage": 9,
+      "title": "做四條鎖帶及四組魔術貼",
+      "parts": [
+        "J10",
+        "J11"
+      ],
+      "image": "bus-tutorial-393/step-37.svg"
+    },
+    {
+      "step": 38,
+      "stage": 10,
+      "title": "按實車試配卡其紙或彩印外皮",
+      "parts": [
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11"
+      ],
+      "image": "bus-tutorial-393/step-38.svg"
+    },
+    {
+      "step": 39,
+      "stage": 10,
+      "title": "分層包紙及貼路線牌、燈與格柵",
+      "parts": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7"
+      ],
+      "image": "bus-tutorial-393/step-39.svg"
+    },
+    {
+      "step": 40,
+      "stage": 10,
+      "title": "固定鎖帶，逐件做活動檢查",
+      "parts": [
+        "J10",
+        "J11",
+        "B10",
+        "B11"
+      ],
+      "image": "bus-tutorial-393/step-40.svg"
+    },
+    {
+      "step": 41,
+      "stage": 10,
+      "title": "鬆四帶，至少20次整車拆合",
+      "parts": [
+        "B1",
+        "B2",
+        "J10",
+        "J11",
+        "J12",
+        "J13"
+      ],
+      "image": "bus-tutorial-393/step-41.svg"
+    },
+    {
+      "step": 42,
+      "stage": 10,
+      "title": "最後點數及分層保存",
+      "parts": [
+        "B1",
+        "B2",
+        "B10",
+        "B11",
+        "B12",
+        "W1",
+        "J3",
+        "J12",
+        "J13",
+        "T1"
+      ],
+      "image": "bus-tutorial-393/step-42.svg"
+    }
+  ]
+}

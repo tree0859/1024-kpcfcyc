@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">15：確認接合面沒有刻意留縫</title><desc id="desc">乾透後再次平放上層。B2底面應接觸承托框與牆頂，木棒在管內插入5毫米，管頂比木棒尖高1.25毫米。 1.25毫米是套管內部的軸向餘量，不是上下兩層車身之間的間隙；承重位置是框及牆頂，木棒只作定位。</desc><style>
+svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
+.label{font-size:20px;fill:#202a2c;font-weight:600}
+.small{font-size:18px;fill:#202a2c}
+.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
+.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
+.cutout{fill:#fffdf7}
+.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
+.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
+.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
+.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
+.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
+.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
+.glue{stroke:#b12626;stroke-width:4;fill:none}
+.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
+.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
+.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
+</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">落座剖面：B2底接觸框頂</text><rect x="60" y="126" width="59.6" height="16" class="j1"/><rect x="140.4" y="126" width="69.6" height="16" class="j1"/><rect x="80.875" y="142" width="98.25" height="72" class="block"/><rect x="119.6" y="142" width="20.8" height="56" class="hole"/><rect x="120" y="86" width="20" height="112" class="pin"/><g transform="translate(0 0) scale(1)"><rect x="50" y="94" width="63.6" height="32" class="card"/><rect x="146.4" y="94" width="83.6" height="32" class="card"/><rect x="114" y="76" width="4.8" height="50" class="tube"/><rect x="141.2" y="76" width="4.8" height="50" class="tube"/></g><text x="260" y="83" class="label">管頂餘1.25</text><text x="260" y="118" class="label">B2厚4</text><text x="260" y="152" class="label">框厚2</text><text x="260" y="198" class="label">J3高9</text><text x="28" y="274" class="label">6.25管長－5插入＝1.25</text><text x="28" y="307" class="label">不是車身兩層之間留1.25縫</text></svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">10：四塊J3黏在框底，不與框重疊</title><desc id="desc">承托框先開約Ø2.6木棒試孔。J3孔朝上，逐塊貼在框的底面，孔心與框孔同軸；先用無膠的試棒檢查，再固定J3並移走試棒待乾。 J3頂z78.40625、底z69.40625毫米；從框頂量盲孔總深9＝框2＋入塊7。前門洞頂約z68.125，仍須檢查實際門位。</desc><style>
+svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
+.label{font-size:20px;fill:#202a2c;font-weight:600}
+.small{font-size:18px;fill:#202a2c}
+.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
+.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
+.cutout{fill:#fffdf7}
+.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
+.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
+.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
+.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
+.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
+.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
+.glue{stroke:#b12626;stroke-width:4;fill:none}
+.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
+.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
+.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
+</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">J3頂貼框底；孔朝上</text><rect x="60" y="126" width="59.6" height="16" class="j1"/><rect x="140.4" y="126" width="69.6" height="16" class="j1"/><rect x="80.875" y="142" width="98.25" height="72" class="block"/><rect x="119.6" y="142" width="20.8" height="56" class="hole"/><line x1="81" y1="142" x2="119" y2="142" class="glue"/><line x1="141" y1="142" x2="179" y2="142" class="glue"/><text x="262" y="118" class="label">框厚2</text><text x="262" y="163" class="label">J3高9</text><text x="262" y="207" class="label">塊底封2</text><text x="28" y="269" class="label">膠在塊頂接觸面，不流入孔</text><text x="28" y="303" class="label">由框頂至孔底：2＋7＝9</text></svg>

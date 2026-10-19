@@ -59,6 +59,14 @@ document.querySelector(".hero .closing").append(document.createTextNode("　／�
 const checklistNav=document.createElement("a");
 checklistNav.href="checklist.html";checklistNav.textContent="四柱／樓梯更新清單";
 document.querySelector("nav").prepend(checklistNav);
+const frameTutorialLink=document.createElement("a");
+frameTutorialLink.href="frame-tutorial-393.html";
+frameTutorialLink.textContent="四柱承托框17步圖解教程";
+document.querySelector(".hero .closing").append(document.createTextNode("　／　"),frameTutorialLink);
+const busTutorialLink=document.createElement("a");
+busTutorialLink.href="bus-tutorial-393.html";
+busTutorialLink.textContent="全車42步拼裝教程";
+document.querySelector(".hero .closing").append(document.createTextNode("　／　"),busTutorialLink);
 const liveryNav=document.createElement("a");liveryNav.href="cutting.html#cut-P38";liveryNav.textContent="外觀彩印外皮";document.querySelector("nav").prepend(liveryNav);
 const liveryLink=document.createElement("a");liveryLink.href="cutting.html#cut-P38";liveryLink.textContent="上傳外觀圖的彩印裁紙樣";document.querySelector(".hero .closing").append(document.createTextNode("　／　"),liveryLink);
 document.querySelector(".metrics div:last-child b").textContent="37 + 12";
