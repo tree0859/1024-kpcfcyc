@@ -1,0 +1,44 @@
+{
+  "page_mm": [
+    297,
+    210
+  ],
+  "png_pixels": [
+    3508,
+    2480
+  ],
+  "dpi": 300,
+  "count": 104,
+  "grid": {
+    "columns": 26,
+    "rows": 4,
+    "origin_mm": [
+      10,
+      8
+    ],
+    "row_pitch_mm": 49
+  },
+  "figure_mm": {
+    "width": 8,
+    "flat_length": 47,
+    "folds_from_top": [
+      22,
+      38
+    ],
+    "above_seat": 22,
+    "thigh": 16,
+    "shin": 9
+  },
+  "reference_seat_mm": {
+    "width": 13.042857142857,
+    "depth": 15.965625,
+    "height": 9.825
+  },
+  "nominal_clearance_mm": {
+    "per_side": 2.5214285714285003,
+    "below_shin": 0.8249999999999993,
+    "above_head_upper_deck": 30.809375000000003
+  },
+  "note": "Printed rectangular cutouts, not a realistic human proportion or physical fit certification.",
+  "physical_prototype": false
+}
