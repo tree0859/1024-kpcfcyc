@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">15：試裝四段套管</title><desc id="desc">內Ø2.8、外Ø4套管裁4段，每段長6.25，修平管口。穿B2孔，底端齊地板底，上端露2.25；先不黏管。</desc><style>
-svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
-.label{font-size:20px;fill:#202a2c;font-weight:600}
-.small{font-size:18px;fill:#202a2c}
-.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
-.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
-.cutout{fill:#fffdf7}
-.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
-.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
-.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
-.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
-.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
-.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
-.glue{stroke:#b12626;stroke-width:4;fill:none}
-.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
-.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
-.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
-</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">J13穿B2；底端齊平</text><g transform="translate(0 0) scale(1)"><rect x="50" y="94" width="63.6" height="32" class="card"/><rect x="146.4" y="94" width="83.6" height="32" class="card"/><rect x="114" y="76" width="4.8" height="50" class="tube"/><rect x="141.2" y="76" width="4.8" height="50" class="tube"/></g><text x="260" y="85" class="label">上露2.25</text><text x="260" y="125" class="label">B2厚4</text><line x1="45" y1="126" x2="240" y2="126" class="guide"/><text x="28" y="208" class="label">套管：內Ø2.8／外Ø4</text><text x="28" y="245" class="label">管長6.25；四段先不黏</text><text x="28" y="287" class="label">下面不能凸出B2底面</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">15：不用套管，檢查B2底面</title><desc id="desc">取消四段定位套管。B2底只保留U框、四根豎肋及角撐；接觸框頂的位置不墊紙或魔術貼。</desc><style>svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}text{font-size:19px;fill:#202a2c;font-weight:600}.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}.wall{fill:#d4c494;stroke:#777468;stroke-width:1.2}.cutout{fill:#fffdf7;stroke:#515b5f;stroke-dasharray:3 2}.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.4}.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.4}.strap{fill:#edcadb;stroke:#a33e70;stroke-width:1.4}.outline{stroke:#515b5f;stroke-width:1.5;fill:none}.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}.glue{stroke:#b12626;stroke-width:3;fill:none}.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38">底面投影：四根豎肋不改</text><g transform="translate(30 110) scale(1.06)"><rect x="0" y="0" width="393" height="83" class="card"/><rect x="106.075" y="7.6" width="4" height="67.8" class="j1"/><rect x="169.9375" y="7.6" width="4" height="67.8" class="j1"/><rect x="243.625" y="7.6" width="4" height="67.8" class="j1"/><rect x="317.3125" y="7.6" width="4" height="67.8" class="j1"/><rect x="36.2296875" y="8" width="52.809375" height="18.9714286" class="cutout"/></g><text x="28" y="254">肋高11.053125；名義側隙0.6</text><text x="28" y="291">保留U框及J9，仍需對齊</text></svg>

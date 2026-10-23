@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">14：標管高後，取下B2才黏管外</title><desc id="desc">乾合合格後記下各管高度，垂直取下B2。只在套管外壁與B2孔壁之間薄上膠，保持管底齊平，按膠水說明待乾。 四管平行、開口暢通，管內及木棒外露段都無膠；B2沒有和下層框或木棒黏在一起。</desc><style>
-svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
-.label{font-size:20px;fill:#202a2c;font-weight:600}
-.small{font-size:18px;fill:#202a2c}
-.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
-.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
-.cutout{fill:#fffdf7}
-.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
-.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
-.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
-.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
-.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
-.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
-.glue{stroke:#b12626;stroke-width:4;fill:none}
-.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
-.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
-.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
-</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">取下的B2：只黏套管外壁</text><g transform="translate(0 0) scale(1)"><rect x="50" y="94" width="63.6" height="32" class="card"/><rect x="146.4" y="94" width="83.6" height="32" class="card"/><rect x="114" y="76" width="4.8" height="50" class="tube"/><rect x="141.2" y="76" width="4.8" height="50" class="tube"/></g><line x1="112" y1="99" x2="112" y2="121" class="glue"/><line x1="148" y1="99" x2="148" y2="121" class="glue"/><text x="260" y="89" class="label">管內無膠</text><text x="260" y="131" class="label">管外薄黏</text><text x="28" y="217" class="label">紅短線＝上膠處</text><text x="28" y="254" class="label">下層不要留在旁邊一起灌膠</text><text x="28" y="291" class="label">固定後按膠水指引乾透</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">14：先自然落座，再扣對角四帶</title><desc id="desc">坐平後先輕扣一組對角翻帶，再扣另一組，只按合魔術貼，不扯歪上層。最後複查四角。 四帶限制鬆脫及滑移，承托仍靠框與牆頂；不是可提整車的承重吊帶。</desc><style>svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}text{font-size:19px;fill:#202a2c;font-weight:600}.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}.wall{fill:#d4c494;stroke:#777468;stroke-width:1.2}.cutout{fill:#fffdf7;stroke:#515b5f;stroke-dasharray:3 2}.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.4}.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.4}.strap{fill:#edcadb;stroke:#a33e70;stroke-width:1.4}.outline{stroke:#515b5f;stroke-width:1.5;fill:none}.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}.glue{stroke:#b12626;stroke-width:3;fill:none}.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38">局部外側剖面：自然落座才扣</text><rect x="65" y="164" width="16" height="96" class="wall"/><rect x="81" y="164" width="40" height="16" class="j1"/><g transform="translate(0 0) scale(1)"><rect x="65" y="132" width="165" height="32" class="card"/><rect x="65" y="70" width="16" height="62" class="wall"/></g><rect x="58" y="114" width="7" height="100" class="strap"/><text x="270" y="120">外側帶</text><text x="270" y="180">水平面無貼</text><text x="28" y="290">先對角，後其餘；不要拉歪</text></svg>

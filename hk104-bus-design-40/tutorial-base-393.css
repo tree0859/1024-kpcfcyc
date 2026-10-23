@@ -1,6 +1,7 @@
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{min-width:280px}
 img{max-width:100%;vertical-align:middle}
+.part-figure img{display:block;width:100%;height:auto}
 button,input,select,textarea{font:inherit}
 button,a{-webkit-tap-highlight-color:transparent}
 [hidden]{display:none!important}

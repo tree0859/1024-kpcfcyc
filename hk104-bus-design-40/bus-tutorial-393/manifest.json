@@ -1,12 +1,12 @@
 {
-  "version": "393x83-integer-card-v2",
+  "version": "393-no-post-r1",
   "stepCount": 42,
   "stageCount": 10,
   "steps": [
     {
       "step": 1,
       "stage": 1,
-      "title": "確認版本、分袋與材料",
+      "title": "確認無柱版本、分袋與材料",
       "parts": [
         "B1"
       ],
@@ -15,7 +15,7 @@
     {
       "step": 2,
       "stage": 1,
-      "title": "先試一座、一盒和一個接頭",
+      "title": "先試一座、一盒和一角承托",
       "parts": [
         "S1",
         "S2",
@@ -23,9 +23,10 @@
         "S4",
         "F1",
         "J1",
-        "J3",
-        "J12",
-        "J13"
+        "J7",
+        "J8",
+        "J10",
+        "J11"
       ],
       "image": "bus-tutorial-393/step-02.svg"
     },
@@ -123,25 +124,29 @@
     {
       "step": 10,
       "stage": 3,
-      "title": "疊9層J3，黏到框底",
+      "title": "檢查承托框頂水平",
       "parts": [
-        "J3"
+        "J1",
+        "J2",
+        "J7",
+        "J8"
       ],
       "image": "bus-tutorial-393/step-10.svg"
     },
     {
       "step": 11,
       "stage": 3,
-      "title": "裝四根14毫米定位棒",
+      "title": "略過木棒，檢查無孔承托面",
       "parts": [
-        "J12"
+        "J1",
+        "J2"
       ],
       "image": "bus-tutorial-393/step-11.svg"
     },
     {
       "step": 12,
       "stage": 4,
-      "title": "在B2重畫梯孔及四管孔",
+      "title": "在B2只重畫及裁樓梯孔",
       "parts": [
         "B2"
       ],
@@ -170,19 +175,24 @@
     {
       "step": 15,
       "stage": 4,
-      "title": "試裝四段套管",
+      "title": "不用套管，檢查B2底面",
       "parts": [
-        "J13"
+        "B2",
+        "J4",
+        "J5",
+        "J6",
+        "J9"
       ],
       "image": "bus-tutorial-393/step-15.svg"
     },
     {
       "step": 16,
       "stage": 4,
-      "title": "首輪四角乾合，再分開黏管",
+      "title": "對齊外邊，首輪平放乾合",
       "parts": [
         "B2",
-        "J13"
+        "J1",
+        "J2"
       ],
       "image": "bus-tutorial-393/step-16.svg"
     },
@@ -345,7 +355,7 @@
     {
       "step": 30,
       "stage": 8,
-      "title": "四角複驗後，把上層牆黏B2",
+      "title": "平放複驗後，把上層牆黏B2",
       "parts": [
         "B5",
         "B8",
@@ -375,8 +385,9 @@
       "parts": [
         "B1",
         "B2",
-        "J12",
-        "J13",
+        "J1",
+        "J2",
+        "J4",
         "T1"
       ],
       "image": "bus-tutorial-393/step-32.svg"
@@ -466,7 +477,7 @@
     {
       "step": 40,
       "stage": 10,
-      "title": "固定鎖帶，逐件做活動檢查",
+      "title": "固定外側翻帶，逐件活動檢查",
       "parts": [
         "J10",
         "J11",
@@ -478,21 +489,19 @@
     {
       "step": 41,
       "stage": 10,
-      "title": "鬆四帶，至少20次整車拆合",
+      "title": "鬆四帶，提至少12毫米後移開",
       "parts": [
         "B1",
         "B2",
         "J10",
-        "J11",
-        "J12",
-        "J13"
+        "J11"
       ],
       "image": "bus-tutorial-393/step-41.svg"
     },
     {
       "step": 42,
       "stage": 10,
-      "title": "最後點數及分層保存",
+      "title": "無柱版最後點數及保存",
       "parts": [
         "B1",
         "B2",
@@ -500,9 +509,8 @@
         "B11",
         "B12",
         "W1",
-        "J3",
-        "J12",
-        "J13",
+        "J10",
+        "J11",
         "T1"
       ],
       "image": "bus-tutorial-393/step-42.svg"

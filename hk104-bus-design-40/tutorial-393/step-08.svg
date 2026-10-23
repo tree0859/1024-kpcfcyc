@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">8：分前後J3：後塊孔不能置中</title><desc id="desc">裁36片12.28125 × 6毫米的1毫米灰卡，分成4組，每組9片。前兩組孔心距前短邊6.140625；後兩組距前短邊9.28125、距後短邊3毫米。 所有孔心在6毫米寬方向置中，即距兩側長邊均3毫米。每組先只在上方7片開約Ø2.6試孔，下方2片保持實心。</desc><style>
-svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
-.label{font-size:20px;fill:#202a2c;font-weight:600}
-.small{font-size:18px;fill:#202a2c}
-.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
-.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
-.cutout{fill:#fffdf7}
-.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
-.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
-.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
-.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
-.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
-.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
-.glue{stroke:#b12626;stroke-width:4;fill:none}
-.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
-.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
-.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
-</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">四塊同方向：車頭←　→車尾</text><text x="28" y="86" class="label">前塊 ×2</text><text x="266" y="86" class="label">後塊 ×2</text><rect x="28" y="112" width="180" height="88" class="block"/><circle cx="118" cy="156" r="19" class="hole"/><rect x="266" y="112" width="180" height="88" class="block"/><circle cx="402" cy="156" r="19" class="hole"/><text x="28" y="239" class="label">距前6.140625</text><text x="266" y="239" class="label">距前9.28125</text><text x="266" y="273" class="label">距後3</text><text x="28" y="308" class="label">各塊長12.28125、闊6；孔寬向居中</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">8：B2只開樓梯孔</title><desc id="desc">B2仍393 × 83 × 厚4。樓梯孔x36.2296875–89.0390625、y8–26.9714286。保留原三邊U框，不加第四邊。 J5兩片及J6一片各疊2層；U框只黏B2底，不跨層。</desc><style>svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}text{font-size:19px;fill:#202a2c;font-weight:600}.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}.wall{fill:#d4c494;stroke:#777468;stroke-width:1.2}.cutout{fill:#fffdf7;stroke:#515b5f;stroke-dasharray:3 2}.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.4}.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.4}.strap{fill:#edcadb;stroke:#a33e70;stroke-width:1.4}.outline{stroke:#515b5f;stroke-width:1.5;fill:none}.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}.glue{stroke:#b12626;stroke-width:3;fill:none}.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38">B2：只裁原樓梯孔</text><g transform="translate(30 110) scale(1.06)"><rect x="0" y="0" width="393" height="83" class="card"/><rect x="36.2296875" y="8" width="52.809375" height="18.9714286" class="cutout"/></g><text x="28" y="254">孔52.81 × 18.97；起點y8</text><text x="28" y="291">保留底面三邊U框</text></svg>

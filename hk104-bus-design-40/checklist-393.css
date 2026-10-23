@@ -2,6 +2,7 @@
 .focused-checklist .check-intro table{display:block;max-width:100%;overflow:auto}
 .focused-checklist .stage-figures{grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr))}
 .focused-checklist .part-figure svg text{font-size:17px}
+.focused-checklist .part-figure img{display:block;width:100%;height:auto}
 .focused-checklist .part-figure svg .stair-black{fill:#242424;stroke:#999;stroke-width:1}
 .focused-checklist .part-figure svg .light-fold{stroke:#eee;stroke-width:1;stroke-dasharray:3 2}
 .focused-checklist .progress-controls select,.focused-checklist button{min-height:44px}

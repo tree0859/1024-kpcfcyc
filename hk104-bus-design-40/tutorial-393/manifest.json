@@ -1,0 +1,173 @@
+{
+  "version": "393-no-post-r1",
+  "steps": [
+    {
+      "step": 1,
+      "title": "辨認無柱版保留件",
+      "parts": [
+        "J1",
+        "J2",
+        "B2",
+        "J10",
+        "J11"
+      ],
+      "image": "tutorial-393/step-01.svg"
+    },
+    {
+      "step": 2,
+      "title": "把8片框條疊成2毫米",
+      "parts": [
+        "J1",
+        "J2"
+      ],
+      "image": "tutorial-393/step-02.svg"
+    },
+    {
+      "step": 3,
+      "title": "同平面排J1／J2承托框",
+      "parts": [
+        "J1",
+        "J2"
+      ],
+      "image": "tutorial-393/step-03.svg"
+    },
+    {
+      "step": 4,
+      "title": "做12個L托座及24片角撐",
+      "parts": [
+        "J7",
+        "J8"
+      ],
+      "image": "tutorial-393/step-04.svg"
+    },
+    {
+      "step": 5,
+      "title": "標承托面與托翼高度",
+      "parts": [
+        "J7",
+        "J8",
+        "J1",
+        "J2"
+      ],
+      "image": "tutorial-393/step-05.svg"
+    },
+    {
+      "step": 6,
+      "title": "固定平整承托框",
+      "parts": [
+        "J1",
+        "J2",
+        "J7",
+        "J8"
+      ],
+      "image": "tutorial-393/step-06.svg"
+    },
+    {
+      "step": 7,
+      "title": "停止鑽定位孔，檢查舊件",
+      "parts": [
+        "J1",
+        "B2"
+      ],
+      "image": "tutorial-393/step-07.svg"
+    },
+    {
+      "step": 8,
+      "title": "B2只開樓梯孔",
+      "parts": [
+        "B2",
+        "J5",
+        "J6"
+      ],
+      "image": "tutorial-393/step-08.svg"
+    },
+    {
+      "step": 9,
+      "title": "保留四根豎肋及角撐",
+      "parts": [
+        "J4",
+        "J9"
+      ],
+      "image": "tutorial-393/step-09.svg"
+    },
+    {
+      "step": 10,
+      "title": "對齊外邊，垂直平放",
+      "parts": [
+        "B2",
+        "J1",
+        "J2"
+      ],
+      "image": "tutorial-393/step-10.svg"
+    },
+    {
+      "step": 11,
+      "title": "四角坐平，承托面不墊貼",
+      "parts": [
+        "B2",
+        "J1",
+        "J2"
+      ],
+      "image": "tutorial-393/step-11.svg"
+    },
+    {
+      "step": 12,
+      "title": "裁四條翻帶及四對魔術貼",
+      "parts": [
+        "J10",
+        "J11"
+      ],
+      "image": "tutorial-393/step-12.svg"
+    },
+    {
+      "step": 13,
+      "title": "外側左右各兩條乾貼",
+      "parts": [
+        "J10",
+        "J11"
+      ],
+      "image": "tutorial-393/step-13.svg"
+    },
+    {
+      "step": 14,
+      "title": "先自然落座，再扣對角四帶",
+      "parts": [
+        "J10",
+        "J11",
+        "B2"
+      ],
+      "image": "tutorial-393/step-14.svg"
+    },
+    {
+      "step": 15,
+      "title": "帶齊內裝做干涉複驗",
+      "parts": [
+        "B2",
+        "J4",
+        "T1"
+      ],
+      "image": "tutorial-393/step-15.svg"
+    },
+    {
+      "step": 16,
+      "title": "鬆四帶，垂直提至少12毫米",
+      "parts": [
+        "B2",
+        "J10",
+        "J11"
+      ],
+      "image": "tutorial-393/step-16.svg"
+    },
+    {
+      "step": 17,
+      "title": "試拆與分層保存",
+      "parts": [
+        "B2",
+        "J4",
+        "J10",
+        "J11"
+      ],
+      "image": "tutorial-393/step-17.svg"
+    }
+  ]
+}

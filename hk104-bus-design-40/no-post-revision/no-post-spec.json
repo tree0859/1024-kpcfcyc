@@ -52,5 +52,6 @@
   "upperFloorTopZ": 84.40625,
   "minimumVerticalLiftMm": 12,
   "physicalPrototype": false,
-  "legacyTutorialRequiresPatch": true
+  "legacyTutorialRequiresPatch": false,
+  "tutorialVersion": "393-no-post-web-r1"
 }

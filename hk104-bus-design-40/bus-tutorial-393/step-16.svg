@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">16：首輪四角乾合，再分開黏管</title><desc id="desc">B2水平放下，四棒同時對四管。帶完整上層牆板及試椅或末排占位卡乾放，查側牆與套管、後管與末排空隙。合格後標管高，提走B2，只黏管外壁與地板，按膠水說明乾透。</desc><style>
-svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
-.label{font-size:20px;fill:#202a2c;font-weight:600}
-.small{font-size:18px;fill:#202a2c}
-.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
-.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
-.cutout{fill:#fffdf7}
-.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
-.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
-.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
-.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
-.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
-.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
-.glue{stroke:#b12626;stroke-width:4;fill:none}
-.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
-.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
-.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
-</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">四角同時下放；圖為單角剖面</text><g transform="translate(0 45) scale(1)"><rect x="60" y="126" width="59.6" height="16" class="j1"/><rect x="140.4" y="126" width="69.6" height="16" class="j1"/><rect x="80.875" y="142" width="98.25" height="72" class="block"/><rect x="119.6" y="142" width="20.8" height="56" class="hole"/><rect x="120" y="86" width="20" height="112" class="pin"/><g transform="translate(0 -42) scale(1)"><rect x="50" y="94" width="63.6" height="32" class="card"/><rect x="146.4" y="94" width="83.6" height="32" class="card"/><rect x="114" y="76" width="4.8" height="50" class="tube"/><rect x="141.2" y="76" width="4.8" height="50" class="tube"/></g></g><line x1="250" y1="95" x2="250" y2="171" class="arrow"/><text x="282" y="100" class="label">保持水平</text><text x="282" y="145" class="label">不可硬壓</text><text x="28" y="290" class="label">四管都對中，B2自然平落</text><text x="28" y="320" class="label">先乾合；遇卡住就提起重查</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">16：對齊外邊，首輪平放乾合</title><desc id="desc">四翻帶全打開，雙手托上層地板，對齊四角及前後外邊，再垂直放到框和牆頂；先不扣帶。</desc><style>svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}text{font-size:19px;fill:#202a2c;font-weight:600}.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}.wall{fill:#d4c494;stroke:#777468;stroke-width:1.2}.cutout{fill:#fffdf7;stroke:#515b5f;stroke-dasharray:3 2}.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.4}.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.4}.strap{fill:#edcadb;stroke:#a33e70;stroke-width:1.4}.outline{stroke:#515b5f;stroke-width:1.5;fill:none}.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}.glue{stroke:#b12626;stroke-width:3;fill:none}.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38">局部剖面：對齊後垂直放下</text><rect x="65" y="164" width="16" height="96" class="wall"/><rect x="81" y="164" width="40" height="16" class="j1"/><g transform="translate(0 -46) scale(1)"><rect x="65" y="132" width="165" height="32" class="card"/></g><line x1="260" y1="104" x2="260" y2="161" class="arrow"/><text x="291" y="129">向下</text><text x="28" y="290">先坐平，不急著扣帶</text></svg>

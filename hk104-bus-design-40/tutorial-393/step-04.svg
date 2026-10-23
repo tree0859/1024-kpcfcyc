@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">4：製作12個L托座及24片三角撐</title><desc id="desc">J7側面托座10片：12.28 × 17.28；端面托座2片：11.86 × 17.28毫米。沿17.28方向距起點12.28處壓摺，餘下5毫米向內摺成水平托翼；每座配兩片J8三角撐。 J8每片為1毫米灰卡，直角邊12.28及5毫米；兩片放在托座兩側，水平翼在上、直立黏面向下。</desc><style>
-svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
-.label{font-size:20px;fill:#202a2c;font-weight:600}
-.small{font-size:18px;fill:#202a2c}
-.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
-.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
-.cutout{fill:#fffdf7}
-.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
-.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
-.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
-.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
-.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
-.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
-.glue{stroke:#b12626;stroke-width:4;fill:none}
-.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
-.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
-.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
-</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">J7壓摺；每座配2片J8</text><rect x="45" y="74" width="110" height="173" class="card"/><line x1="45" y1="197" x2="155" y2="197" class="guide"/><text x="54" y="142" class="label">12.28</text><text x="77" y="229" class="label">5</text><text x="28" y="281" class="label">平面展開</text><line x1="312" y1="82" x2="312" y2="221" class="outline"/><line x1="312" y1="82" x2="363" y2="82" class="outline"/><polygon points="312,82 363,82 312,205" class="block"/><text x="262" y="59" class="label">側視：托翼向內</text><text x="270" y="257" class="label">J8兩側各1片</text><text x="270" y="288" class="label">翼在上、面向下</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">4：做12個L托座及24片角撐</title><desc id="desc">J7側托座10片12.28125 × 17.28125；端托座2片11.8571429 × 17.28125。長向距12.28125摺，留5毫米托翼。每座配兩片J8，直角邊12.28125及5。 J7為薄卡；J8每片單層1毫米灰卡。托翼在上，貼牆面向下。</desc><style>svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}text{font-size:19px;fill:#202a2c;font-weight:600}.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}.wall{fill:#d4c494;stroke:#777468;stroke-width:1.2}.cutout{fill:#fffdf7;stroke:#515b5f;stroke-dasharray:3 2}.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.4}.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.4}.strap{fill:#edcadb;stroke:#a33e70;stroke-width:1.4}.outline{stroke:#515b5f;stroke-width:1.5;fill:none}.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}.glue{stroke:#b12626;stroke-width:3;fill:none}.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38">J7薄卡摺L；J8兩側各一</text><rect x="45" y="72" width="100" height="173" class="card"/><line x1="45" y1="195" x2="145" y2="195" class="guide"/><text x="53" y="137">12.28</text><text x="78" y="229">5</text><line x1="290" y1="80" x2="290" y2="224" class="outline"/><line x1="290" y1="80" x2="340" y2="80" class="outline"/><polygon points="290,80 340,80 290,203" class="j1"/><text x="240" y="270">翼向內，黏面向下</text></svg>

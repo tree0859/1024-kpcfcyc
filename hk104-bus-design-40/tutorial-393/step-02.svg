@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">2：裁8片長短條，分別疊成2毫米</title><desc id="desc">用1毫米灰卡裁J1：389 × 5共4片；J2：69 × 5共4片。同尺寸兩片疊成一條，壓平待乾，完成2條J1及2條J2。 每條名義厚度都是2毫米，邊緣齊平；不要把四條框全部疊在一起。</desc><style>
-svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
-.label{font-size:20px;fill:#202a2c;font-weight:600}
-.small{font-size:18px;fill:#202a2c}
-.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
-.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
-.cutout{fill:#fffdf7}
-.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
-.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
-.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
-.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
-.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
-.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
-.glue{stroke:#b12626;stroke-width:4;fill:none}
-.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
-.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
-.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
-</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">每條各用兩片1毫米灰卡</text><rect x="44" y="65" width="270" height="10" class="card"/><rect x="44" y="108" width="270" height="10" class="card"/><text x="334" y="78" class="label">1毫米</text><text x="334" y="121" class="label">1毫米</text><line x1="170" y1="135" x2="170" y2="181" class="arrow"/><rect x="44" y="208" width="270" height="10" class="j1"/><rect x="44" y="218" width="270" height="10" class="j1"/><text x="334" y="226" class="label">2毫米</text><text x="28" y="277" class="label">J1：4裁片 → 2條</text><text x="28" y="308" class="label">J2：4裁片 → 2條</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">2：把8片框條疊成2毫米</title><desc id="desc">J1裁389 × 5毫米共4片；J2裁69 × 5共4片。同尺寸兩片薄膠疊合壓乾，完成2條J1及2條J2。 每條名義厚2毫米，邊緣齊平；灰卡單層1毫米。</desc><style>svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}text{font-size:19px;fill:#202a2c;font-weight:600}.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}.wall{fill:#d4c494;stroke:#777468;stroke-width:1.2}.cutout{fill:#fffdf7;stroke:#515b5f;stroke-dasharray:3 2}.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.4}.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.4}.strap{fill:#edcadb;stroke:#a33e70;stroke-width:1.4}.outline{stroke:#515b5f;stroke-width:1.5;fill:none}.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}.glue{stroke:#b12626;stroke-width:3;fill:none}.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38">每條：兩片1毫米灰卡</text><rect x="50" y="85" width="280" height="10" class="card"/><rect x="50" y="126" width="280" height="10" class="card"/><line x1="190" y1="154" x2="190" y2="196" class="arrow"/><rect x="50" y="226" width="280" height="20" class="j1"/><text x="28" y="290">J1四片＋J2四片＝8裁片</text></svg>

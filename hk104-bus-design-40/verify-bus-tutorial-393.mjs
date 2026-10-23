@@ -3,14 +3,15 @@ import assert from "node:assert/strict";
 import {steps,layout} from "./build-bus-tutorial-393.mjs";
 const read=p=>fs.readFileSync(new URL(p,import.meta.url),"utf8");
 const d=JSON.parse(read("HK-104-39.3cm-尺寸核算.json"));
+d.parts=d.parts.filter(p=>!["J3","J12","J13"].includes(p.id));
 const manifest=JSON.parse(read("bus-tutorial-393/manifest.json"));
 assert.equal(steps.length,42);
 assert.equal(new Set(steps.map(s=>s.stage)).size,10);
 const referenced=new Set(steps.flatMap(s=>s.ids));
 assert.deepEqual(d.parts.filter(p=>!referenced.has(p.id)).map(p=>p.id),[]);
 assert.deepEqual([...referenced].filter(id=>!d.parts.some(p=>p.id===id)),[]);
-assert.equal(d.parts.length,73);
-assert.equal(d.parts.reduce((n,p)=>n+(p.cardLayers?p.cardLayers*p.quantity:0),0),210);
+assert.equal(d.parts.length,70);
+assert.equal(d.parts.reduce((n,p)=>n+(p.cardLayers?p.cardLayers*p.quantity:0),0),174);
 assert.equal(d.parts.filter(p=>p.material==="桃紅色薄卡").reduce((n,p)=>n+p.quantity,0),318);
 assert.equal(d.parts.filter(p=>p.material==="黑色薄卡").reduce((n,p)=>n+p.quantity,0),7);
 assert.equal(d.parts.filter(p=>/^G\d+$/.test(p.id)).reduce((n,p)=>n+p.quantity,0),57);
@@ -24,7 +25,6 @@ for(const [level,seats]of Object.entries(layout)){
   assert(!overlaps(s,[2,33.7928571429,389,15.4142857142]),`${level} aisle blocked`);
   if(level==="upper"){
    assert(!overlaps(s,[d.hole.x,d.hole.y,d.hole.l,d.hole.w]),"stair hole blocked");
-   for(const x of d.posts.xs)for(const y of d.posts.ys)assert(!overlaps(s,[x-2,y-2,4,4]),"seat against sleeve");
   }else assert(!overlaps(s,[373.35,8.89,15.97,65.21]),"rear box collision");
  }
 }
@@ -38,4 +38,8 @@ assert.equal((html.match(/<img /g)||[]).length,42);
 assert.equal((html.match(/class="assembly-stage"/g)||[]).length,10);
 assert.equal((html.match(/href="#bus-step-/g)||[]).length,42);
 assert(read("HK-104-39.3cm-全車42步拼裝教程-文字版.md").includes("配圖42"));
-console.log("PASS: 42 steps/images and 10 stages; all 73 part types covered; 64+40 seat footprints clear of aisle, holes, sleeves and rear box; counts 210/318/7/57. Numerical checks only, not physical validation.");
+assert.equal(manifest.version,"393-no-post-r1");
+assert(!steps.flatMap(s=>s.ids).some(id=>["J3","J12","J13"].includes(id)));
+assert(steps[40].action.includes("至少12毫米"));
+assert(!html.includes("裝四根14毫米定位棒"));
+console.log("PASS: no-post 42 steps/images, 10 stages, all 70 active types; 64+40 seats clear; counts 174/318/7/57. Numerical checks only, not physical validation.");

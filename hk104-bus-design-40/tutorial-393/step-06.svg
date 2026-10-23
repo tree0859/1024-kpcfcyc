@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">6：把J1、J2固定在托座上</title><desc id="desc">先把整個框放進車廂：J1佔x2–391，y2–7及76–81；J2佔x2–7及386–391，y7–76毫米。確認端部吻合，再把框固定在托座及牆內側。 框頂與兩側牆頂、前後牆頂齊平；框與車身外緣四邊相距2毫米，沒有一角翹高。</desc><style>
-svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
-.label{font-size:20px;fill:#202a2c;font-weight:600}
-.small{font-size:18px;fill:#202a2c}
-.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
-.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
-.cutout{fill:#fffdf7}
-.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
-.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
-.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
-.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
-.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
-.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
-.glue{stroke:#b12626;stroke-width:4;fill:none}
-.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
-.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
-.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
-</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">俯視：框內嵌牆內，不壓牆頂</text><g transform="translate(30 112) scale(1.06)"><rect x="0" y="0" width="393" height="83" class="wall"/><rect x="2" y="2" width="389" height="79" class="cutout"/><rect x="2" y="2" width="389" height="5" class="j1"/><rect x="2" y="76" width="389" height="5" class="j1"/><rect x="2" y="7" width="5" height="69" class="j2"/><rect x="386" y="7" width="5" height="69" class="j2"/></g><text x="28" y="251" class="label">車身393 × 83；四邊牆厚2</text><text x="28" y="285" class="label">框頂＝牆頂，同一接合面</text><text x="28" y="314" class="label">黏托座與牆內側；先保持平整</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">6：固定平整承托框</title><desc id="desc">J1放x2–391、y2–7及76–81；J2放x2–7及386–391、y7–76。先乾放，再薄黏到托座及完整牆內側。 框和牆頂同高，不翹角；四邊外緣內縮2毫米。</desc><style>svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}text{font-size:19px;fill:#202a2c;font-weight:600}.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}.wall{fill:#d4c494;stroke:#777468;stroke-width:1.2}.cutout{fill:#fffdf7;stroke:#515b5f;stroke-dasharray:3 2}.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.4}.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.4}.strap{fill:#edcadb;stroke:#a33e70;stroke-width:1.4}.outline{stroke:#515b5f;stroke-width:1.5;fill:none}.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}.glue{stroke:#b12626;stroke-width:3;fill:none}.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38">四條無孔框，固定在托座上</text><g transform="translate(30 110) scale(1.06)"><rect x="0" y="0" width="393" height="83" class="card"/><rect x="2" y="2" width="389" height="5" class="j1"/><rect x="2" y="76" width="389" height="5" class="j1"/><rect x="2" y="7" width="5" height="69" class="j2"/><rect x="386" y="7" width="5" height="69" class="j2"/></g><text x="28" y="254">框頂z80.40625，四角同高</text><text x="28" y="291">J3、棒、管全部不安裝</text></svg>

@@ -29,7 +29,7 @@ spec={
  "jointPlaneZ":old["heights"]["joint"],
  "upperFloorTopZ":old["heights"]["upperFloorTop"],
  "minimumVerticalLiftMm":12,"physicalPrototype":False,
- "legacyTutorialRequiresPatch":True,
+ "legacyTutorialRequiresPatch":False,"tutorialVersion":"393-no-post-web-r1",
 }
 assert abs(spec["upperFloorTopZ"]-spec["jointPlaneZ"]-4)<1e-9
 assert 12>spec["retained"]["J4HeightZ"]

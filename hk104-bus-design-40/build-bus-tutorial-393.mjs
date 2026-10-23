@@ -1,8 +1,10 @@
 import fs from "node:fs";
 import assert from "node:assert/strict";
+import {applyNoPost} from "./apply-no-post-393.mjs";
 const dir=new URL("./",import.meta.url);
 const D=JSON.parse(fs.readFileSync(new URL("HK-104-39.3cm-尺寸核算.json",dir),"utf8"));
-const SOURCE="https://tree0859.github.io/1024-kpcfcyc/hk104-bus-design-40/revision-393.html?v=2106cda";
+const NP=JSON.parse(fs.readFileSync(new URL("no-post-revision/no-post-spec.json",dir),"utf8"));
+const SOURCE="https://tree0859.github.io/1024-kpcfcyc/hk104-bus-design-40/revision-393.html";
 const r=(x,y,w,h,c="card",attrs="")=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" class="${c}" ${attrs}/>`;
 const l=(x,y,a,b,c="edge")=>`<line x1="${x}" y1="${y}" x2="${a}" y2="${b}" class="${c}"/>`;
 const t=(x,y,s)=>`<text x="${x}" y="${y}">${s}</text>`;
@@ -327,8 +329,9 @@ export const steps=[
  t(28,38,"104乘客席；司機另外計")+busSide(false,true)+arr(235,135,235,88)+
  t(28,275,"64上層＋40下層；12級、6輪、4腳")+t(28,312,"分層托底保存，保護底肋與外皮"))
 ];
+applyNoPost(steps,{t,r,arr,floorBody,hole,seats});
 assert.equal(steps.length,42);
-const stages=["準備與試件","車身、窗及下層空殼","承托框及四柱","上層底板與首次試合","12級樓梯","104席座椅製作","司機台及內部設施","上層組裝與欄杆","車頂、門、底腳及輪","外皮、鎖帶及整車驗收"];
+const stages=["準備與試件","車身、窗及下層空殼","無孔承托框與平整檢查","上層底板與平放試合","12級樓梯","104席座椅製作","司機台及內部設施","上層組裝與欄杆","車頂、門、底腳及輪","外皮、翻帶及整車驗收"];
 const out=new URL("bus-tutorial-393/",dir);fs.mkdirSync(out,{recursive:true});
 const style=`svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}text{font-size:20px;fill:#202a2c;font-weight:600}.card{fill:#e7e5df;stroke:#505b60;stroke-width:1.2}.paper{fill:#fffdf7;stroke:#505b60;stroke-width:.8}.cutout{fill:#fffdf7;stroke:#454f54;stroke-width:1;stroke-dasharray:3 2}.seat{fill:#dc6d9f;stroke:#8a2b55;stroke-width:.65}.khaki{fill:#c9ba86;stroke:#716447;stroke-width:1}.glass{fill:#d3e8ed;stroke:#386975;stroke-width:1}.glassline{stroke:#386975;stroke-width:3}.aisle{fill:#f4f0d9;stroke:none}.zone{fill:#e9d4ac;stroke:#8b673b;stroke-width:1}.support{fill:#b9d6e9;stroke:#215c86;stroke-width:1}.pin{fill:#368453;stroke:#154628;stroke-width:2}.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1}.grey{fill:#898e90;stroke:#414b50;stroke-width:1}.stair{fill:#252a2c;stroke:#515b60;stroke-width:1}.lightfold{stroke:#fffdf7;stroke-width:1;stroke-dasharray:3 2}.edge{stroke:#505b60;stroke-width:2;fill:none}.fold{stroke:#505b60;stroke-width:1.4;stroke-dasharray:5 5;fill:none}.glue{stroke:#b12626;stroke-width:4;fill:none}.fire{fill:#b34242;stroke:#762929;stroke-width:1}.wheel{fill:#333b3f;stroke:#20272a;stroke-width:1}.hub{fill:#e5e2d4;stroke:#333b3f;stroke-width:1}.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}`;
 const files=steps.map((s,i)=>{
@@ -339,25 +342,24 @@ const files=steps.map((s,i)=>{
  fs.writeFileSync(new URL(name,out),svg);return`bus-tutorial-393/${name}`;
 });
 const stock=[
- ["1毫米灰卡","210片，69完成件","500 × 400約5張"],
+ ["1毫米灰卡","174片，65完成件","500 × 400約5張作保守備料，含試件與損耗"],
  ["桃紅薄卡","318片，52雙人＋1司機椅","A4約4張"],
  ["黑薄卡","7片，T1/T2/T8","A4約1張"],
  ["其他薄卡","24片，盒件、托座、裙邊等","至少400 × 250一張，保留388長條"],
  ["透明片","57片","A4約3張"],
  ["彩色薄紙／貼片","35片，含可選F11","紅、黑灰、白淺色各A4約1張"],
  ["幼管","外Ø1.5，36段，約1102.98長","至少1.5米或200長8根"],
- ["定位木棒／套管","棒4根各14；管4段各6.25","Ø約2.5棒100長；內Ø2.8外Ø4管100長"],
  ["鎖帶／魔術貼","4帶、4鉤＋4毛","另留門鉸鏈及試件"],
- ["卡其紙／彩印外皮","二選一；不計入707件","卡其A3約3張；彩印按新車身逐面試配"]
+ ["卡其紙／彩印外皮","二選一；不計入663件","卡其A3約3張；彩印按新車身逐面試配"]
 ];
 const stockHtml=`<details class="materials"><summary>材料、工具與列印注意</summary><p>工具：金屬尺、方尺、切割墊、刀剪、壓摺工具、夾、壓板及量厚工具；膠要薄塗，先測試能否黏透明片。以下是備料估算，不是最佳化排料保證；合格試件計入正式數量。</p><div class="table-wrap"><table><thead><tr><th>材料</th><th>正式用量</th><th>準備建議</th></tr></thead><tbody>${stock.map(v=>`<tr>${v.map(x=>`<td>${x}</td>`).join("")}</tr>`).join("")}</tbody></table></div><p>本教程列印用A4橫向，圖是安裝示意，不是1:1裁切紙樣；原A4/A3紙樣及PDF不改。薄卡、膠及透明片不屬灰卡整數疊厚限制。</p></details>`;
 const contents=stages.map((name,k)=>`<div><a href="#stage-${k+1}" class="stage-link">${String(k+1).padStart(2,"0")}　${name}</a>${steps.map((s,i)=>s.stage===k?`<a href="#bus-step-${i+1}"><span>${String(i+1).padStart(2,"0")}</span>${s.title}</a>`:"").join("")}</div>`).join("");
 const body=stages.map((name,k)=>`<section class="assembly-stage" id="stage-${k+1}"><h2><span>${String(k+1).padStart(2,"0")}</span>${name}</h2>${steps.map((s,i)=>s.stage!==k?"":`<section class="tutorial-step" id="bus-step-${i+1}"><div class="step-text"><p class="step-count">步驟 ${String(i+1).padStart(2,"0")} / 42 · ${s.ids.join(" / ")}</p><h3>${s.title}</h3><p>${s.action} <a class="ref" href="${SOURCE}" target="_blank" rel="noopener noreferrer">〔尺寸依據〕</a></p><p class="check"><strong>完成後檢查：</strong>${s.check}</p><p class="caution"><strong>注意：</strong>${s.warning}</p>${s.extra}</div><figure><img src="${files[i]}" width="480" height="330" alt="全車步驟${i+1}：${s.title}" ${i?"loading=\"lazy\"":""}><figcaption>圖 ${String(i+1).padStart(2,"0")} · 安裝示意，不是1:1紙樣；局部比例有放大。${[12,13].includes(i)?"底面件沿共同俯視基準投影，翻面勿鏡像錯位。":""}</figcaption></figure></section>`).join("")}</section>`).join("");
 const printScript=`const materialPanel=document.querySelector('.materials');let previousOpen=false;window.addEventListener('beforeprint',()=>{previousOpen=materialPanel.open;materialPanel.open=true});window.addEventListener('afterprint',()=>{materialPanel.open=previousOpen});document.getElementById('bus-print').addEventListener('click',()=>window.print());`;
-const html=`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>HK-104 39.3厘米｜全車42步拼裝教程</title><meta name="description" content="42步配42張步驟圖，從1毫米灰卡裁件、車身、四柱、樓梯、104席、內部設施至可取車頂、活動門及外皮驗收。"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"><link href="tutorial-base-393.css" rel="stylesheet"><link href="frame-tutorial-393.css" rel="stylesheet"><link href="bus-tutorial-393.css" rel="stylesheet"></head><body><a class="skip" href="#stage-1">跳至全車教程</a><header><a href="index.html">HK–104 ／ 全車拼裝教程</a><button id="bus-print" type="button">列印全車教程</button></header><main><section class="intro"><p class="eyebrow">393 × 83 MM · 1 MM GREY CARD · 42 STEPS</p><h1>全車拼裝教程<br>由裁件到104席完成</h1><p class="lead">42步，42張步驟圖。從車身、四柱、樓梯及座椅，到設施、車頂、門、底腳、輪及外皮。</p><p>本篇補齊全車流程，不再只是四柱專篇。沿用393 × 83毫米、灰卡1毫米整層的實作尺寸；高度倍率0.9825仍是工作假設，方案未經實物試製，先試件再批量裁。</p><nav class="related" aria-label="相關參考"><a href="frame-tutorial-393.html">四柱17步放大專篇</a><a href="revision-393.html">全部尺寸修正表</a><a href="checklist.html">四柱／樓梯50項清單</a></nav></section>${stockHtml}<details class="contents"><summary>全車10階段／42步目錄</summary><nav aria-label="全車教程目錄">${contents}</nav></details>${body}<footer><p>尺寸依據：39.3厘米整毫米疊層修正表v2；四柱細節另參考17步專篇。此教程補組裝方法，並未重新輸出或改動原裁切紙樣及PDF。</p><a href="${SOURCE}" target="_blank" rel="noopener noreferrer">公開尺寸依據</a><p class="source-url">${SOURCE}</p><p>HK-104 · 2026-10-19 · Perplexity Computer圖文整理 · 未經實物試製</p></footer></main><script>${printScript}</script></body></html>`;
+const html=`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>HK-104 39.3厘米｜無柱版全車42步教程</title><meta name="description" content="無柱版42步及42張圖：平放承托、四條外側翻帶、樓梯及104席，不鑽定位孔。"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"><link href="tutorial-base-393.css" rel="stylesheet"><link href="frame-tutorial-393.css" rel="stylesheet"><link href="bus-tutorial-393.css" rel="stylesheet"></head><body><a class="skip" href="#stage-1">跳至全車教程</a><header><a href="index.html">HK–104 ／ 無柱版全車教程</a><button id="bus-print" type="button">列印全車教程</button></header><main><section class="intro"><p class="eyebrow">393 × 83 MM · NO-POST R1 · 42 STEPS</p><h1>無柱版全車教程<br>由裁件到104席完成</h1><p class="lead">42步，42張步驟圖。平放承托＋四條外側魔術貼翻帶；不新增零件，不鑽定位孔。</p><p>取消J3、木棒及套管，保留承托框、底肋及三邊U框。灰卡174片／65完成件，結構內裝663件含F11；車身、樓梯及104席不變。高度倍率0.9825仍是工作假設，未經實物試製，先乾合。</p><nav class="related" aria-label="相關參考"><a href="frame-tutorial-393.html">無柱17步放大專篇</a><a href="revision-393.html">全部尺寸修正表</a><a href="checklist.html">無柱／樓梯清單</a></nav></section>${stockHtml}<details class="contents"><summary>全車10階段／42步目錄</summary><nav aria-label="全車教程目錄">${contents}</nav></details>${body}<footer><p>無柱版2026-10-23：保留原42步編號，接頭步驟已換成框面檢查、平放及外側扣帶。原裁切紙樣及PDF不改；新製作略過取消件及孔。</p><a href="${SOURCE}" target="_blank" rel="noopener noreferrer">公開尺寸依據</a><p class="source-url">${SOURCE}</p><p>HK-104 · 無柱版 · 未經實物試製或強度認證</p></footer></main><script>${printScript}</script></body></html>`;
 fs.writeFileSync(new URL("bus-tutorial-393.html",dir),html);
-fs.writeFileSync(new URL("bus-tutorial-393/manifest.json",dir),JSON.stringify({version:D.version,stepCount:steps.length,stageCount:stages.length,steps:steps.map((s,i)=>({step:i+1,stage:s.stage+1,title:s.title,parts:s.ids,image:files[i]}))},null,2));
-let md="# HK-104 39.3厘米全車42步拼裝教程（文字版）\n\n本文件為可保存的文字版，含42步、材料表及摺線表。42張步驟圖請在[全車42步公開圖文教程](https://tree0859.github.io/1024-kpcfcyc/hk104-bus-design-40/bus-tutorial-393.html)查看，圖文頁亦可按A4橫向列印。\n\n以393 × 83毫米、1毫米灰卡整層為基準；高度倍率0.9825仍屬工作假設。方案未經實物試製，先做試件、再批量裁；原A4/A3裁切紙樣及PDF不改，本教程不是1:1紙樣。\n\n## 材料及工具\n\n|材料|正式用量|備料建議|\n|---|---|---|\n"+stock.map(v=>"|"+v.join("|")+"|").join("\n")+"\n\n備料屬估算，不是最佳化排料保證。工具：金屬尺、方尺、切割墊、刀剪、壓摺工具、夾、壓板及量厚工具；刀及鑽孔工具需有經驗者協助，膠薄塗並先測試透明片。\n";
+fs.writeFileSync(new URL("bus-tutorial-393/manifest.json",dir),JSON.stringify({version:NP.version,stepCount:steps.length,stageCount:stages.length,steps:steps.map((s,i)=>({step:i+1,stage:s.stage+1,title:s.title,parts:s.ids,image:files[i]}))},null,2));
+let md="# HK-104 39.3厘米全車42步拼裝教程（文字版）\n\n現行無柱版2026-10-23：取消J3、定位木棒及套管，改原框平放承托＋四條外側翻帶。保留42步編號，舊柱管步驟已換成檢查與平放試合，按本文件製作。\n\n42張步驟圖請在[無柱版全車42步公開教程](https://tree0859.github.io/1024-kpcfcyc/hk104-bus-design-40/bus-tutorial-393.html)查看，可按A4橫向列印。以393 × 83毫米、1毫米灰卡整層為基準；高度倍率0.9825仍是工作假設，未經實物試製。原紙樣及PDF不改，圖非1:1紙樣。\n\n## 材料及工具\n\n|材料|正式用量|備料建議|\n|---|---|---|\n"+stock.map(v=>"|"+v.join("|")+"|").join("\n")+"\n\n結構內裝663件含可選F11，不做F11為662；不含外皮及人仔。備料屬估算，工具含金屬尺、方尺、切割墊、刀剪、夾、壓板及量厚工具；刀具需有經驗者協助，膠薄塗並先測試透明片。\n";
 for(let k=0;k<stages.length;k++){
  md+=`\n## ${stages[k]}\n`;
  for(let i=0;i<steps.length;i++){

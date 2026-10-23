@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">3：平放排成框，短條夾在長條之間</title><desc id="desc">在平面上排兩條J1；把兩條J2放在兩端，夾在J1之間。四條上表面同高，端部對接，不疊角。 框的外廓為389 × 79，內空為379 × 69毫米；這不是393 × 83毫米的車身外廓。</desc><style>
-svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
-.label{font-size:20px;fill:#202a2c;font-weight:600}
-.small{font-size:18px;fill:#202a2c}
-.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
-.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
-.cutout{fill:#fffdf7}
-.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
-.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
-.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
-.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
-.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
-.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
-.glue{stroke:#b12626;stroke-width:4;fill:none}
-.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
-.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
-.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
-</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">同一平面；角位對接，不搭疊</text><text x="213" y="88" class="label">J1</text><g transform="translate(30 112) scale(1.06)"><rect x="2" y="2" width="389" height="5" class="j1"/><rect x="2" y="76" width="389" height="5" class="j1"/><rect x="2" y="7" width="5" height="69" class="j2"/><rect x="386" y="7" width="5" height="69" class="j2"/></g><text x="213" y="244" class="label">J1</text><text x="28" y="284" class="label">J2在兩端；完成外廓389 × 79</text><text x="28" y="313" class="label">內空379 × 69；四條名義厚2</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">3：同平面排J1／J2承托框</title><desc id="desc">兩條J2夾在兩條J1端部之間，端部對接，不疊角；在平面及車廂內乾放核對後再固定。 框外389 × 79，內空379 × 69毫米，四邊均厚2。</desc><style>svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}text{font-size:19px;fill:#202a2c;font-weight:600}.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}.wall{fill:#d4c494;stroke:#777468;stroke-width:1.2}.cutout{fill:#fffdf7;stroke:#515b5f;stroke-dasharray:3 2}.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.4}.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.4}.strap{fill:#edcadb;stroke:#a33e70;stroke-width:1.4}.outline{stroke:#515b5f;stroke-width:1.5;fill:none}.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}.glue{stroke:#b12626;stroke-width:3;fill:none}.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38">J2夾J1之間；角位不搭疊</text><g transform="translate(30 110) scale(1.06)"><rect x="0" y="0" width="393" height="83" class="card"/><rect x="2" y="2" width="389" height="5" class="j1"/><rect x="2" y="76" width="389" height="5" class="j1"/><rect x="2" y="7" width="5" height="69" class="j2"/><rect x="386" y="7" width="5" height="69" class="j2"/></g><text x="28" y="254">外389 × 79；內379 × 69</text><text x="28" y="291">藍J1長框；橙J2短框</text></svg>

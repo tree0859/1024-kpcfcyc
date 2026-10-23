@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">12：B2開套管孔，套管底齊地板底</title><desc id="desc">B2須為393 × 83、4層1毫米灰卡。依相同四中心先試開Ø4.1孔；套管內Ø2.8、外Ø4，每段長6.25毫米，共4段。 套管穿過4毫米厚B2，底端齊B2底面，上端露2.25毫米；試孔太緊才逐少修至約4.2，先不黏管。</desc><style>
-svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}
-.label{font-size:20px;fill:#202a2c;font-weight:600}
-.small{font-size:18px;fill:#202a2c}
-.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}
-.wall{fill:#e5e1d7;stroke:#777468;stroke-width:1.2}
-.cutout{fill:#fffdf7}
-.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.5}
-.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.5}
-.block{fill:#b9bec0;stroke:#414b50;stroke-width:1.5}
-.pin{fill:#368453;stroke:#154628;stroke-width:1.2}
-.tube{fill:#ffdda0;stroke:#8a5e15;stroke-width:1.2}
-.hole{fill:#fffdf7;stroke:#414b50;stroke-width:1.2}
-.glue{stroke:#b12626;stroke-width:4;fill:none}
-.outline{stroke:#515b5f;stroke-width:1.4;fill:none}
-.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}
-.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}
-</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38" class="label">J13穿B2；底端齊平</text><g transform="translate(0 0) scale(1)"><rect x="50" y="94" width="63.6" height="32" class="card"/><rect x="146.4" y="94" width="83.6" height="32" class="card"/><rect x="114" y="76" width="4.8" height="50" class="tube"/><rect x="141.2" y="76" width="4.8" height="50" class="tube"/></g><text x="260" y="85" class="label">上露2.25</text><text x="260" y="125" class="label">B2厚4</text><line x1="45" y1="126" x2="240" y2="126" class="guide"/><text x="28" y="208" class="label">套管：內Ø2.8／外Ø4</text><text x="28" y="245" class="label">管長6.25；四段先不黏</text><text x="28" y="287" class="label">下面不能凸出B2底面</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="title desc"><title id="title">12：裁四條翻帶及四對魔術貼</title><desc id="desc">J10裁4條12.28125 × 31.01875，末端反摺7.9828125。J11每面12.28125 × 9.2109375，裁4鉤及4毛，配成4對。 反摺後垂直帶長23.0359375；這些是原件，無須新增材料。</desc><style>svg{background:#fffdf7;color:#202a2c;font-family:'Noto Sans TC',sans-serif}text{font-size:19px;fill:#202a2c;font-weight:600}.card{fill:#eeece6;stroke:#515b5f;stroke-width:1.2}.wall{fill:#d4c494;stroke:#777468;stroke-width:1.2}.cutout{fill:#fffdf7;stroke:#515b5f;stroke-dasharray:3 2}.j1{fill:#b9d6e9;stroke:#215c86;stroke-width:1.4}.j2{fill:#f4d3ab;stroke:#97521a;stroke-width:1.4}.strap{fill:#edcadb;stroke:#a33e70;stroke-width:1.4}.outline{stroke:#515b5f;stroke-width:1.5;fill:none}.guide{stroke:#515b5f;stroke-width:1.2;stroke-dasharray:5 5;fill:none}.glue{stroke:#b12626;stroke-width:3;fill:none}.arrow{stroke:#25643c;stroke-width:3;fill:none;marker-end:url(#arr)}</style><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#25643c"/></marker></defs><text x="28" y="38">J10四條；J11四鉤＋四毛</text><rect x="65" y="70" width="76" height="190" class="strap"/><line x1="65" y1="211" x2="141" y2="211" class="guide"/><rect x="83" y="112" width="40" height="58" class="j1"/><text x="230" y="107">反摺7.98</text><text x="230" y="161">成長23.04</text><text x="28" y="298">每面魔術貼12.28 × 9.21</text></svg>
