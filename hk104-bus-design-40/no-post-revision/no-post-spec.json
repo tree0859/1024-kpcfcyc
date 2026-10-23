@@ -1,0 +1,56 @@
+{
+  "version": "393-no-post-r1",
+  "date": "2026-10-23",
+  "joint": "Direct flat bearing on retained J1/J2 frame and wall tops; four exterior hook-and-loop flaps.",
+  "removed": [
+    "J3",
+    "J12",
+    "J13"
+  ],
+  "noNewParts": true,
+  "cancelledHoles": {
+    "J1RodHoles": 4,
+    "B2SleeveHoles": 4
+  },
+  "retained": {
+    "B2": [
+      393,
+      83,
+      4
+    ],
+    "J1": [
+      389,
+      5,
+      2
+    ],
+    "J2": [
+      69,
+      5,
+      2
+    ],
+    "frameOuter": [
+      389,
+      79
+    ],
+    "frameInner": [
+      379,
+      69
+    ],
+    "J4WidthY": 67.8,
+    "J4HeightZ": 11.053125,
+    "straps": 4,
+    "hookLoopPairs": 4
+  },
+  "counts": {
+    "hardCardCuts": 174,
+    "hardCardFinished": 65,
+    "structuralCuts": 663,
+    "withoutOptionalF11": 662
+  },
+  "newBuildOnly": true,
+  "jointPlaneZ": 80.40625,
+  "upperFloorTopZ": 84.40625,
+  "minimumVerticalLiftMm": 12,
+  "physicalPrototype": false,
+  "legacyTutorialRequiresPatch": true
+}
